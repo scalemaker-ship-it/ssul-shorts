@@ -1,0 +1,100 @@
+{
+  "slug": "sorry",
+  "type": "자극형 (C형/B형 변형)",
+  "title_line1": "요즘 애들이",
+  "title_line2": "사과를 안 하는 이유",
+  "hook": "요즘 애들이 사과를 안 하는 이유 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "lines": [
+    {
+      "text": "요즘 애들이 사과를 안 하는 이유?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "잘못한 게 분명한데 미안하다는 말이 안 나옴.",
+      "img": 1
+    },
+    {
+      "text": "대신 이렇게 말함.",
+      "img": 2
+    },
+    {
+      "text": "그럴 수도 있죠!",
+      "dialogue": true,
+      "img": 2
+    },
+    {
+      "text": "기성세대는 이걸 예의 문제로 봄.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "근데 좀 다른 게 있음.",
+      "emotion": "toneup",
+      "img": 3
+    },
+    {
+      "text": "요즘은 사과가 기록으로 남음.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "카톡이든 메일이든 다 캡처가 됨.",
+      "img": 4
+    },
+    {
+      "text": "사과 한 번이 증거가 되는 걸 봐버렸음.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "회사에서도 학교에서도 그랬음.",
+      "img": 5
+    },
+    {
+      "text": "먼저 인정한 사람이 책임을 다 뒤집어쓰는 장면을",
+      "img": 6
+    },
+    {
+      "text": "여러 번 보고 자랐음.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "이걸 방어적 소통이라고 하는데.",
+      "emotion": "tonedown",
+      "img": 7
+    },
+    {
+      "text": "관계를 지키려는 말이 아니라",
+      "img": 7
+    },
+    {
+      "text": "나를 지키려는 말로 바뀐 거임.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "그래서 사과가 사라진 게 아니라",
+      "emotion": "toneup",
+      "img": 8
+    },
+    {
+      "text": "사과의 비용이 올라간 거임.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "예의가 없어진 게 아님.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "미안하다는 말이 안전하지 않아진 거임.",
+      "emotion": "tonedown",
+      "img": 10
+    }
+  ]
+}

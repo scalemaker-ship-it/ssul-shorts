@@ -1,0 +1,104 @@
+{
+  "slug": "allowance",
+  "type": "개드립 인기글 기반",
+  "title_line1": "용돈 받고",
+  "title_line2": "표정 굳는 조카들 특징",
+  "hook": "용돈 받고 표정 굳는 조카들 특징 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "style": {
+    "speed": 1.3,
+    "sub_box": true
+  },
+  "lines": [
+    {
+      "text": "용돈 받고 표정 굳는 조카들 특징?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "명절에 5만원 줬는데",
+      "img": 1
+    },
+    {
+      "text": "조카 표정이 미묘하게 굳음.",
+      "img": 2
+    },
+    {
+      "text": "고맙다고는 하는데 뭔가 아쉬워 보임.",
+      "img": 2
+    },
+    {
+      "text": "예전 같으면 만원에도 좋아했는데.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "근데 애가 욕심이 많아진 게 아님.",
+      "img": 3
+    },
+    {
+      "text": "기준점이 바뀐 거임.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "사람은 금액을 절대값으로 안 봄.",
+      "img": 4
+    },
+    {
+      "text": "먼저 들어온 숫자랑 비교해서 봄.",
+      "img": 5
+    },
+    {
+      "text": "이걸 기준점 효과라고 하는데.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "먼저 본 숫자가 자를 만들어버리는 거임.",
+      "img": 6
+    },
+    {
+      "text": "요즘 애들은 그 자가 큼.",
+      "emotion": "toneup",
+      "img": 6
+    },
+    {
+      "text": "친구가 10만원 받은 걸 듣고",
+      "img": 7
+    },
+    {
+      "text": "유튜브에서 더 큰 금액을 봄.",
+      "img": 7
+    },
+    {
+      "text": "그러면 5만원이 작아 보임.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "어른도 똑같음.",
+      "img": 8
+    },
+    {
+      "text": "연봉 인상률 3%가 기쁘다가",
+      "img": 9
+    },
+    {
+      "text": "동기가 5% 받았다는 걸 듣는 순간 기분이 바뀜.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "금액이 문제가 아니라",
+      "emotion": "tonedown",
+      "img": 10
+    },
+    {
+      "text": "옆에 뭐가 놓여 있었냐가 문제인 거임.",
+      "emotion": "tonedown",
+      "img": 10
+    }
+  ]
+}

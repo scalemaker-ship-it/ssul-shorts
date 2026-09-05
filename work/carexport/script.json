@@ -1,0 +1,96 @@
+{
+  "slug": "carexport",
+  "type": "개드립 인기글 기반",
+  "title_line1": "한국이 작년에",
+  "title_line2": "자동차로 벌어들인 돈",
+  "hook": "한국이 작년에 자동차로 벌어들인 돈 ㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "style": {
+    "speed": 1.3,
+    "sub_box": true
+  },
+  "lines": [
+    {
+      "text": "한국이 작년에 자동차로 벌어들인 돈?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "우리는 차를 사는 쪽만 생각하는데",
+      "img": 1
+    },
+    {
+      "text": "한국은 차를 파는 나라임.",
+      "img": 2
+    },
+    {
+      "text": "작년 11월까지 수출한 완성차가",
+      "img": 2
+    },
+    {
+      "text": "272만 대임.",
+      "emotion": "toneup",
+      "img": 3
+    },
+    {
+      "text": "2016년 이후로 가장 많았음.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "금액으로는 703억 달러.",
+      "img": 4
+    },
+    {
+      "text": "우리 돈으로 100조 원 가까이 됨.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "여기서 재미있는 게 하나 있음.",
+      "emotion": "toneup",
+      "img": 5
+    },
+    {
+      "text": "관세 얘기가 계속 나왔던 해였음.",
+      "img": 5
+    },
+    {
+      "text": "불리한 조건이었는데 기록이 나온 거임.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "이유는 파는 곳을 늘렸기 때문임.",
+      "img": 6
+    },
+    {
+      "text": "한 시장이 막히면 다른 시장으로 돌림.",
+      "img": 7
+    },
+    {
+      "text": "그리고 비싼 차를 더 많이 팔았음.",
+      "img": 7
+    },
+    {
+      "text": "같은 대수를 팔아도 들어오는 돈이 커짐.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "그래서 대수보다 금액이 먼저 올라감.",
+      "img": 8
+    },
+    {
+      "text": "많이 만들어서 이긴 게 아니라",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "어디에 뭘 파냐를 바꿔서 이긴 거임.",
+      "emotion": "tonedown",
+      "img": 9
+    }
+  ]
+}

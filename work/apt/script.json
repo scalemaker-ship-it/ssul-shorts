@@ -1,0 +1,103 @@
+{
+  "slug": "apt",
+  "type": "자극형 (C형/B형 변형)",
+  "title_line1": "부모 세대가 산 아파트를",
+  "title_line2": "자식은 평생 못 사는 이유",
+  "hook": "부모 세대가 산 아파트를 자식은 평생 못 사는 이유 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "lines": [
+    {
+      "text": "부모 세대가 산 아파트를 자식은 평생 못 사는 이유?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "부모님한테 이 집 얼마에 샀냐고 물어보면",
+      "img": 1
+    },
+    {
+      "text": "대답 듣고 좀 멍해짐.",
+      "emotion": "tonedown",
+      "img": 2
+    },
+    {
+      "text": "그때는 월급 몇 년치면 됐다고 함.",
+      "img": 2
+    },
+    {
+      "text": "지금은 안 쓰고 모아도 몇십 년임.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "근데 부모 세대가 특별히 부지런했던 게 아님.",
+      "emotion": "toneup",
+      "img": 3
+    },
+    {
+      "text": "그때는 집값이 월급보다 천천히 올랐음.",
+      "img": 4
+    },
+    {
+      "text": "지금은 집값이 월급보다 훨씬 빨리 오름.",
+      "img": 4
+    },
+    {
+      "text": "그래서 모으는 속도로는 못 따라감.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "이걸 자산 소득 격차라고 하는데.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "일해서 버는 돈보다 갖고 있어서 버는 돈이 커진 상태임.",
+      "img": 6
+    },
+    {
+      "text": "그러면 이미 가진 사람만 더 가지게 됨.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "열심히 일한 사람이 지는 구조가 되는 거임.",
+      "emotion": "tonedown",
+      "img": 7
+    },
+    {
+      "text": "그래서 요즘 사람들이 이상해 보이는 것들",
+      "img": 7
+    },
+    {
+      "text": "코인이든 주식이든 영끌이든",
+      "img": 8
+    },
+    {
+      "text": "다 여기서 나온 행동임.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "근로 소득으로는 못 따라잡는다는 걸",
+      "img": 9
+    },
+    {
+      "text": "몸으로 먼저 알아버린 거임.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "게을러서 못 산 게 아니라",
+      "emotion": "tonedown",
+      "img": 10
+    },
+    {
+      "text": "중간에 규칙이 바뀐 거임.",
+      "emotion": "tonedown",
+      "img": 10
+    }
+  ]
+}

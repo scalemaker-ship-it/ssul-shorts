@@ -1,0 +1,104 @@
+{
+  "slug": "hardwork",
+  "type": "자극형 (C형/B형 변형)",
+  "title_line1": "열심히 살수록",
+  "title_line2": "가난해지는 사람들 특징",
+  "hook": "열심히 살수록 가난해지는 사람들 특징 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "lines": [
+    {
+      "text": "열심히 살수록 가난해지는 사람들 특징?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "진짜 쉬지 않고 일하는데 통장이 안 늘어남.",
+      "img": 1
+    },
+    {
+      "text": "야근도 하고 주말에도 뭔가 함.",
+      "img": 2
+    },
+    {
+      "text": "근데 늘 제자리임.",
+      "emotion": "tonedown",
+      "img": 2
+    },
+    {
+      "text": "이런 사람들한테 공통점이 하나 있음.",
+      "emotion": "toneup",
+      "img": 3
+    },
+    {
+      "text": "시간을 팔아서 돈을 벌고 있다는 거임.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "시간은 아무리 열심히 해도 하루 24시간이 끝임.",
+      "img": 4
+    },
+    {
+      "text": "그래서 버는 돈에 천장이 생김.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "반대로 돈이 도는 사람들은",
+      "img": 5
+    },
+    {
+      "text": "자기 시간이 아닌 걸 팔고 있음.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "이걸 근로 소득의 함정이라고 하는데.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "문제는 바쁠수록 이 구조가 안 보인다는 거임.",
+      "emotion": "toneup",
+      "img": 6
+    },
+    {
+      "text": "당장 이번 달을 넘겨야 하니까",
+      "img": 7
+    },
+    {
+      "text": "시간을 더 갈아 넣는 쪽을 고름.",
+      "img": 7
+    },
+    {
+      "text": "그러면 구조를 바꿀 시간이 또 없어짐.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "그래서 열심히 하는 게 오히려 발목을 잡음.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "게으른 사람이 이긴다는 얘기가 아님.",
+      "img": 9
+    },
+    {
+      "text": "뭘 팔고 있는지 한 번은 봐야 한다는 거임.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "열심히가 부족했던 게 아니라",
+      "emotion": "tonedown",
+      "img": 10
+    },
+    {
+      "text": "열심히만 했던 거임.",
+      "emotion": "tonedown",
+      "img": 10
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "bystander",
+  "type": "C형 (사회실험·심리실험형)",
+  "title_line1": "사람이 많을수록",
+  "title_line2": "아무도 안 돕는 이유",
+  "hook": "사람이 많을수록 아무도 안 돕는 이유 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "lines": [
+    { "text": "사람이 많을수록 아무도 안 돕는 이유?", "emotion": "toneup", "img": 1 },
+    { "text": "길에서 누가 쓰러졌는데", "img": 1 },
+    { "text": "주변에 사람이 스무 명쯤 있음.", "img": 2 },
+    { "text": "다들 힐끗 보고 그냥 지나감.", "emotion": "tonedown", "img": 2 },
+    { "text": "근데 사람이 적을 땐 오히려 도와줌.", "emotion": "toneup", "img": 3 },
+    { "text": "혼자 봤으면 바로 뛰어갔을 사람들임.", "img": 3 },
+    { "text": "이걸 방관자 효과라고 하는데.", "img": 4 },
+    { "text": "사람이 많을수록 책임이 나눠진다고 느끼는 것.", "img": 5 },
+    { "text": "스무 명이면 내 몫은 이십분의 일.", "img": 5 },
+    { "text": "누군가는 하겠지, 하고 다 같이 생각함.", "emotion": "tonedown", "img": 6 },
+    { "text": "그래서 결국 아무도 안 함.", "emotion": "tonedown", "img": 7 },
+    { "text": "그래서 도움이 필요할 땐 저기요 말고", "img": 8 },
+    { "text": "거기 파란 옷 입은 분!", "dialogue": true, "img": 8 },
+    { "text": "이렇게 딱 집어야 함.", "img": 8 },
+    { "text": "지목당하는 순간 사람은 바로 움직임.", "emotion": "toneup", "img": 9 },
+    { "text": "나쁜 사람은 없었음.", "emotion": "tonedown", "img": 10 },
+    { "text": "지목당한 사람이 없었을 뿐.", "emotion": "tonedown", "img": 10 }
+  ]
+}

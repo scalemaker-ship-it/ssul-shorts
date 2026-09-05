@@ -1,0 +1,108 @@
+{
+  "slug": "gift",
+  "type": "자극형 (C형/B형 변형)",
+  "title_line1": "친구 결혼식 가면",
+  "title_line2": "손해 보는 계산",
+  "hook": "친구 결혼식 가면 손해 보는 계산 ㅎㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "lines": [
+    {
+      "text": "친구 결혼식 가면 손해 보는 계산?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "청첩장 받으면 제일 먼저 하는 생각이 있음.",
+      "img": 1
+    },
+    {
+      "text": "얘가 나한테 얼마 냈더라.",
+      "emotion": "tonedown",
+      "img": 2
+    },
+    {
+      "text": "이 계산을 안 해본 사람이 거의 없음.",
+      "img": 2
+    },
+    {
+      "text": "근데 이게 좀 이상함.",
+      "emotion": "toneup",
+      "img": 3
+    },
+    {
+      "text": "축하하러 가는 자리인데",
+      "img": 3
+    },
+    {
+      "text": "왜 정산부터 하게 되는 거임.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "축의금은 원래 품앗이였음.",
+      "img": 4
+    },
+    {
+      "text": "목돈 나갈 일에 동네가 나눠서 대주는 방식이었음.",
+      "img": 5
+    },
+    {
+      "text": "그때는 결혼을 다들 했으니까 돌려받을 수 있었음.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "근데 지금은 결혼을 안 하는 사람이 많음.",
+      "emotion": "toneup",
+      "img": 6
+    },
+    {
+      "text": "그러면 낸 사람은 회수할 자리가 없음.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "이걸 일방향 부조라고 하는데.",
+      "emotion": "tonedown",
+      "img": 7
+    },
+    {
+      "text": "돌아올 곳이 없는 돈이 되는 거임.",
+      "img": 7
+    },
+    {
+      "text": "그래서 요즘 축의금이 부담스러운 게",
+      "img": 8
+    },
+    {
+      "text": "액수가 커져서만이 아님.",
+      "emotion": "tonedown",
+      "img": 8
+    },
+    {
+      "text": "돌려받을 전제가 깨졌기 때문임.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "안 갈 수도 없고 가기도 싫어짐.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "인심이 각박해진 게 아니라",
+      "emotion": "tonedown",
+      "img": 10
+    },
+    {
+      "text": "계산이 안 맞아진 거임.",
+      "emotion": "tonedown",
+      "img": 10
+    }
+  ],
+  "style": {
+    "sub_box": true,
+    "speed": 1.3
+  }
+}

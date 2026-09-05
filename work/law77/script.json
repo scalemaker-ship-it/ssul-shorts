@@ -1,0 +1,120 @@
+{
+  "slug": "law77",
+  "type": "B형 (사회·현상) — 반전형",
+  "title_line1": "중국 욕하면",
+  "title_line2": "진짜 벌금임?!",
+  "hook": "중국 욕하면 진짜 벌금임?! ㄷㄷ",
+  "channel": "썰푸는휴지",
+  "voice": "minuk",
+  "style": {
+    "speed": 1.3,
+    "sub_box": true
+  },
+  "lines": [
+    {
+      "text": "중국 욕하면 진짜 벌금임?",
+      "emotion": "toneup",
+      "img": 1
+    },
+    {
+      "text": "요즘 커뮤니티에 이런 글이 쫙 돌았음.",
+      "img": 1
+    },
+    {
+      "text": "7월 7일부터 중국 욕하면 벌금이래!",
+      "dialogue": true,
+      "img": 2
+    },
+    {
+      "text": "그래서 이제 무슨 말을 못 하냐고 난리가 났는데",
+      "img": 2
+    },
+    {
+      "text": "찾아보니까 그런 법이 아니었음.",
+      "emotion": "tonedown",
+      "img": 3
+    },
+    {
+      "text": "실제로 7월 7일에 시행되는 건",
+      "img": 3
+    },
+    {
+      "text": "정보통신망법 개정, 이른바 7·7법임.",
+      "emotion": "tonedown",
+      "img": 4
+    },
+    {
+      "text": "욕을 막는 법이 아니라",
+      "img": 4
+    },
+    {
+      "text": "거짓말을 퍼뜨리는 걸 막는 법임.",
+      "emotion": "tonedown",
+      "img": 5
+    },
+    {
+      "text": "거짓인 걸 알면서 손해를 입힐 목적으로 퍼뜨리면",
+      "img": 5
+    },
+    {
+      "text": "손해액의 최대 5배까지 물어내야 함.",
+      "emotion": "toneup",
+      "img": 6
+    },
+    {
+      "text": "이걸 징벌적 손해배상이라고 하는데.",
+      "emotion": "tonedown",
+      "img": 6
+    },
+    {
+      "text": "손해만큼이 아니라 벌을 얹어서 물리는 방식임.",
+      "img": 7
+    },
+    {
+      "text": "근데 여기서 중요한 게 하나 있음.",
+      "emotion": "toneup",
+      "img": 7
+    },
+    {
+      "text": "이 5배 배상은 아무한테나 붙는 게 아님.",
+      "img": 8
+    },
+    {
+      "text": "구독자 10만이 넘거나 월 조회수 10만이 넘는",
+      "img": 8
+    },
+    {
+      "text": "그러니까 이걸 업으로 하는 사람이 대상임.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "일반인 댓글은 원래 있던 규정 그대로 감.",
+      "emotion": "tonedown",
+      "img": 9
+    },
+    {
+      "text": "대신 달라진 게 있는데",
+      "img": 10
+    },
+    {
+      "text": "예전엔 피해자만 신고할 수 있었지만",
+      "img": 10
+    },
+    {
+      "text": "이제는 누구나 신고할 수 있게 바뀜.",
+      "emotion": "tonedown",
+      "img": 11
+    },
+    {
+      "text": "결국 말을 못 하게 만든 법이 아니라",
+      "emotion": "tonedown",
+      "img": 12
+    },
+    {
+      "text": "거짓말에 값을 매긴 법이었음.",
+      "emotion": "tonedown",
+      "img": 12
+    }
+  ]
+}

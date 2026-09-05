@@ -1,0 +1,23 @@
+# secrets
+.env
+# session/local
+.claude/
+.mcp.json
+.DS_Store
+__pycache__/
+# generated media (script.json / upload.md 만 남긴다)
+work/*/img/
+work/*/frames/
+work/*/tts/
+work/*/tmp/
+work/**/*.png
+work/**/*.wav
+work/**/*.mp4
+work/**/*.txt
+*.mp4
+codex-images/
+# 분석 문서는 공개 저장소에서 제외 (제작 과정만 공개)
+docs/performance-*.md
+docs/reference-top20-*.md
+docs/references.md
+pipeline/refs.py

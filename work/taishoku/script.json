@@ -1,0 +1,27 @@
+{
+  "slug": "taishoku",
+  "type": "B형 (사회·현상·세대형)",
+  "title_line1": "요즘 일본 MZ 사이에",
+  "title_line2": "생긴 이상한 현상",
+  "hook": "요즘 일본 MZ 사이에 생긴 이상한 현상 ㄷㄷ",
+  "channel": "썰푸는휴지",
+  "lines": [
+    { "text": "요즘 일본 MZ 사이에 생긴 이상한 현상?", "emotion": "toneup", "img": 1 },
+    { "text": "회사를 그만둘 때", "img": 1 },
+    { "text": "본인이 말하지 않음.", "emotion": "tonedown", "img": 2 },
+    { "text": "대신 말해주는 회사에 돈을 냄.", "img": 3 },
+    { "text": "퇴사대행이라고 하는데.", "emotion": "toneup", "img": 3 },
+    { "text": "전화 한 통이면 그날로 안 나가도 됨.", "img": 4 },
+    { "text": "모무리라는 업체가 제일 큼.", "img": 5 },
+    { "text": "'더는 무리'라는 뜻임.", "img": 5 },
+    { "text": "작년 이용자가 1만 6천 명.", "img": 6 },
+    { "text": "1년 만에 3.7배 늘었음.", "emotion": "toneup", "img": 6 },
+    { "text": "이용자의 60%가 20대고", "img": 7 },
+    { "text": "대부분 입사 1년도 안 된 신입임.", "img": 7 },
+    { "text": "입사 첫날 의뢰한 사람도 있었음.", "img": 8 },
+    { "text": "그만두는 게 무서운 게 아니라", "img": 9 },
+    { "text": "그만둔다고 말하는 게 무서운 거임.", "emotion": "tonedown", "img": 9 },
+    { "text": "와... 그 한마디를 못 해서", "emotion": "tonedown", "img": 10 },
+    { "text": "돈을 내는 시대임.", "emotion": "tonedown", "img": 10 }
+  ]
+}

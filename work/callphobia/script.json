@@ -1,0 +1,31 @@
+{
+  "slug": "callphobia",
+  "type": "B형 (사회·현상·세대형)",
+  "voice": "joonghyun",
+  "title_line1": "요즘 애들이 전화를",
+  "title_line2": "안 받는 진짜 이유",
+  "hook": "요즘 애들이 전화를 안 받는 진짜 이유 ㄷㄷ",
+  "channel": "썰푸는휴지",
+  "lines": [
+    { "text": "요즘 애들이 전화를 안 받는 진짜 이유?", "emotion": "toneup", "img": 1 },
+    { "text": "전화가 오면 일단 안 받음.", "img": 1 },
+    { "text": "끊기고 나서 카톡으로 무슨 일이냐고 보냄.", "img": 2 },
+    { "text": "게을러서가 아님.", "emotion": "tonedown", "img": 2 },
+    { "text": "벨이 울리는 순간", "img": 3 },
+    { "text": "심장이 먼저 반응함.", "emotion": "tonedown", "img": 3 },
+    { "text": "무슨 말을 할지 정하지도 못했는데", "img": 4 },
+    { "text": "대화가 이미 시작돼 있음.", "img": 4 },
+    { "text": "카톡은 썼다 지웠다 할 수 있음.", "img": 5 },
+    { "text": "전화는 그게 안 됨.", "emotion": "tonedown", "img": 5 },
+    { "text": "이걸 콜 포비아라고 하는데.", "img": 6 },
+    { "text": "이름이 붙었다는 건", "img": 6 },
+    { "text": "그만큼 흔해졌다는 뜻임.", "emotion": "toneup", "img": 7 },
+    { "text": "배달도 앱으로만 시킴.", "img": 8 },
+    { "text": "병원 예약도 앱부터 찾음.", "img": 8 },
+    { "text": "근데 이상한 게 하나 있음.", "emotion": "tonedown", "img": 9 },
+    { "text": "통화 자체가 싫은 게 아님.", "img": 9 },
+    { "text": "친한 사람이랑은 한 시간도 함.", "img": 10 },
+    { "text": "와... 무서운 건 전화가 아니라", "img": 10 },
+    { "text": "준비 안 된 내 말이었음.", "emotion": "tonedown", "img": 10 }
+  ]
+}

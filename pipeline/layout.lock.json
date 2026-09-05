@@ -1,0 +1,114 @@
+{
+  "BAR_BG": [
+    255,
+    255,
+    255
+  ],
+  "BAR_CNT": [
+    47,
+    105,
+    236
+  ],
+  "BAR_H": 0.055,
+  "BAR_PAD": 40,
+  "BAR_TEXT": [
+    17,
+    17,
+    17
+  ],
+  "BG": [
+    0,
+    0,
+    0
+  ],
+  "CHANNEL_C": [
+    200,
+    200,
+    200
+  ],
+  "CHANNEL_Y": 0.828,
+  "CHAR_H": 0.062,
+  "CHAR_OVERLAP": 0.018,
+  "CHAR_SEC": 0.0,
+  "CONTENT_BOT": 0.71,
+  "CONTENT_TOP": 0.275,
+  "DEADZONE_TOP": 0.855,
+  "DLG_C": [
+    126,
+    200,
+    255
+  ],
+  "EM_GREEN": [
+    168,
+    255,
+    96
+  ],
+  "EM_SIZE_R": 1.14,
+  "EM_YELLOW": [
+    251,
+    255,
+    86
+  ],
+  "FONT_DIR": "/Users/kimyiseul/Library/Fonts",
+  "FPS": 30,
+  "F_BAR": "/Users/kimyiseul/Library/Fonts/Pretendard-SemiBold.ttf",
+  "F_CH": "/Users/kimyiseul/Library/Fonts/Pretendard-Medium.ttf",
+  "F_DLG": "/Users/kimyiseul/Library/Fonts/BMEULJIROTTF.ttf",
+  "F_EM": "/Users/kimyiseul/Library/Fonts/BMEULJIROTTF.ttf",
+  "F_SUB": "/Users/kimyiseul/Library/Fonts/JalnanGothic.otf",
+  "F_TITLE": "/Users/kimyiseul/Library/Fonts/JalnanGothic.otf",
+  "H": 1920,
+  "INTRO_SEC": 0.45,
+  "KEN_ZOOM": 0.09,
+  "NEON": [
+    251,
+    255,
+    86
+  ],
+  "PROFILE_R": 0.022,
+  "PROFILE_Y": 0.8,
+  "SHOW_EMBLEM": false,
+  "SIDE_PAD": 56,
+  "SLIDE_SEC": 0.32,
+  "SPEED": 1.3,
+  "SUB_CENTER": 0.745,
+  "SUB_CHUNK": 10,
+  "SUB_MAX_LINES": 2,
+  "SUB_STROKE": 6,
+  "SUB_TEXT": [
+    255,
+    255,
+    255
+  ],
+  "SUB_TRACK": -2,
+  "SZ_BAR": 64,
+  "SZ_CH": 34,
+  "SZ_SUB": 66,
+  "SZ_TITLE": 120,
+  "TITLE_1": [
+    255,
+    255,
+    255
+  ],
+  "TITLE_2": [
+    251,
+    255,
+    86
+  ],
+  "TITLE_BOT": 0.269,
+  "TITLE_MID": 0.19,
+  "TITLE_PAD": 80,
+  "TITLE_STROKE": 10,
+  "TITLE_TOP": 0.127,
+  "TITLE_TRACK": -1,
+  "W": 1080,
+  "WATERMARK": "@썰푸는휴지",
+  "WHITE": [
+    255,
+    255,
+    255
+  ],
+  "WM_ALPHA": 145,
+  "WM_SIZE": 26,
+  "WM_Y": 0.686
+}
