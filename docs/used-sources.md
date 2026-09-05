@@ -92,3 +92,9 @@ grep -c "<게시글ID>" docs/used-sources.md
 | `yeouido` | 722968028 | 여의도 돗자리에 붙은 경고문 근황 | https://www.dogdrip.net/dogdrip/722968028 |
 | `victory` | — | 정원 60명 배에 14,000명이 탔음 (흥남철수) | https://ko.wikipedia.org/wiki/메러디스_빅토리호 |
 | `rent` | 723095379 | 서울 아파트 평균 월세 152만원 | https://www.dogdrip.net/dogdrip/723095379 |
+| `cphone` | 723127605 | 초5 아들 폰을 30만원 중국폰으로 사줌 | https://www.dogdrip.net/dogdrip/723127605 |
+| `gold` | — | 석 달 만에 모인 금 227톤 | https://ko.wikipedia.org/wiki/금모으기_운동 |
+| `taean` | — | 검은 바다를 손으로 닦은 123만 명 | https://encykorea.aks.ac.kr/Article/E0078980 |
+| `fire` | — | 반나절 만에 모인 소방차 872대 | https://www.newsis.com/view/NISX20190405_0000610752 |
+| `kagnew` | — | 6·25에 아프리카에서 온 황실 근위대 | https://www.segye.com/newsView/20250108519209 |
+| `ayla` | — | 튀르키예 병사가 지어준 이름, 아일라 | https://www.ytn.co.kr/_ln/0106_202306230747162555 |
