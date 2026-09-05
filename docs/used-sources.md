@@ -91,3 +91,4 @@ grep -c "<게시글ID>" docs/used-sources.md
 | `jumin` | 722727949 | 신분증 없이 등본 떼려다 주민센터에서 막힘 | https://www.dogdrip.net/dogdrip/722727949 |
 | `yeouido` | 722968028 | 여의도 돗자리에 붙은 경고문 근황 | https://www.dogdrip.net/dogdrip/722968028 |
 | `victory` | — | 정원 60명 배에 14,000명이 탔음 (흥남철수) | https://ko.wikipedia.org/wiki/메러디스_빅토리호 |
+| `rent` | 723095379 | 서울 아파트 평균 월세 152만원 | https://www.dogdrip.net/dogdrip/723095379 |

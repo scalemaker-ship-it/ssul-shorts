@@ -369,3 +369,4 @@ https://www.youtube.com/watch?v=<영상ID>
 > `anger`(화 잘 내는 사람)는 이 과정에서 **즉시 공개**로 나갔다(8/26 17:00 예정이었음).
 
 | 2026-09-04 22:50 | `yeouido` | 여의도 돗자리 알박기 | https://youtube.com/shorts/RG7H37xq3u4 | Zernio 즉시 공개 |
+| 2026-09-05 18:54 | `rent` | 서울 아파트 평균 월세 152만원 | https://youtube.com/shorts/mL2kN5_ez0E | Zernio 즉시 공개 |
