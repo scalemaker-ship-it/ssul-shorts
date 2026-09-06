@@ -103,3 +103,5 @@ grep -c "<게시글ID>" docs/used-sources.md
 | `odyssey` | — | 놀란 영화가 한국에서만 847만 | https://biz.heraldcorp.com/article/10856394 |
 | `asan` | — | 세계 28위 병원 앞에 약국이 없는 이유 | https://www.khan.co.kr/article/202507131417011 |
 | `onepiece` | — | 일본 만화 최종보스를 한국 커뮤가 찍음? | https://kekewo.net/원피스-앵무새 |
+| `hanja` | 723235519 | 초등 교과서에 한자가 10년 만에 다시 들어옴? | https://www.dogdrip.net/dogdrip/723235519 |
+| `crab` | 723234614 | 골칫거리 꽃게가 316억이 됨 | https://www.dogdrip.net/dogdrip/723234614 |
