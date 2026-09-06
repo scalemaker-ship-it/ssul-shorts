@@ -98,3 +98,8 @@ grep -c "<게시글ID>" docs/used-sources.md
 | `fire` | — | 반나절 만에 모인 소방차 872대 | https://www.newsis.com/view/NISX20190405_0000610752 |
 | `kagnew` | — | 6·25에 아프리카에서 온 황실 근위대 | https://www.segye.com/newsView/20250108519209 |
 | `ayla` | — | 튀르키예 병사가 지어준 이름, 아일라 | https://www.ytn.co.kr/_ln/0106_202306230747162555 |
+| `cena` | — | 미국 프로레슬러가 올린 한국 배우 사진 | https://biz.heraldcorp.com/article/10768108 |
+| `coreano` | — | 이탈리아 카페에 생긴 코레아노 | https://news.nate.com/view/20240713n10959 |
+| `odyssey` | — | 놀란 영화가 한국에서만 847만 | https://biz.heraldcorp.com/article/10856394 |
+| `asan` | — | 세계 28위 병원 앞에 약국이 없는 이유 | https://www.khan.co.kr/article/202507131417011 |
+| `onepiece` | — | 일본 만화 최종보스를 한국 커뮤가 찍음? | https://kekewo.net/원피스-앵무새 |
