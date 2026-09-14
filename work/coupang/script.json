@@ -1,0 +1,26 @@
+{
+  "slug": "coupang",
+  "source": "https://www.dogdrip.net/dogdrip/724315717",
+  "title_line1": "먹튀하고 폐기됐다더니",
+  "title_line2": "CCTV에 다 찍힘",
+  "hook": "배달 먹튀범의 최후",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "motion": true, "bar": "잘못 걸린 배달 먹튀녀", "bar_count": 72 },
+  "lines": [
+    { "text": "배달 먹튀 하나가 완전 잘못 걸린 썰임.", "img": 1 },
+    { "text": "어떤 사람이 회사로 배달을 시켰는데", "img": 2 },
+    { "text": "음식이 녹았다면서 자체 폐기했다고 환불을 받음.", "em": ["환불"], "img": 3 },
+    { "text": "녹아서 그냥 버렸어요.", "dialogue": true, "img": 3 },
+    { "text": "근데 사장이 좀 이상해서 직접 찾아가 CCTV를 돌려봤음.", "img": 4 },
+    { "text": "폐기 전화를 한 다음에 음식을 그대로 픽업해간 게 찍혀 있었음.", "em": ["그대로 픽업"], "em_color": "yellow", "img": 5 },
+    { "text": "열어보지도 않고 환불받고, 퇴근할 때 그대로 들고 나갔음.", "img": 6 },
+    { "text": "더 결정적인 건 여기가 대학병원 연구소라", "img": 7 },
+    { "text": "직원카드를 찍어야 출입이 되는 곳이었음.", "img": 8 },
+    { "text": "본인 카드 찍고 들어가는 것까지 다 찍힌 거임.", "em": ["본인 카드"], "em_color": "yellow", "img": 8 },
+    { "text": "얼굴에 이름에 소속까지 전부 특정된 상황임.", "img": 9 },
+    { "text": "사람들은 지금이라도 자수하라고 함.", "img": 10 },
+    { "text": "님들이 사장이면 어떻게 함?", "img": 10 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}
