@@ -1,0 +1,114 @@
+{
+  "slug": "floornoise",
+  "type": "F형 (법조항 사이다) — 실제 판결(서울남부지법 2025.9, 층간소음 위자료)",
+  "source": "https://www.lawtimes.co.kr/news/articleView.html?idxno=213117",
+  "title_line1": "\"소송하든가\" 새벽마다 뛰던",
+  "title_line2": "윗집이 받은 종이 한 장",
+  "hook": "\"소송하든가\" 새벽마다 뛰던 윗집이 받은 종이 한 장",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "1년 내내 새벽 발망치 윗집의 결말"
+  },
+  "lines": [
+    {
+      "text": "소송하든가 하던 새벽 발망치 윗집이 종이 한 장을 받았음.",
+      "img": 1
+    },
+    {
+      "text": "2023년 12월 윗집이 이사 온 뒤로 1년 내내 쿵쿵 탁탁, 밤 12시 넘어서까지 이어졌음.",
+      "img": 2,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "아랫집 네 식구가 잠을 못 자서 올라가서 말했더니",
+      "img": 3,
+      "sfx": "tick"
+    },
+    {
+      "text": "애 있는 집인데 어쩌라고요!!?",
+      "dialogue": true,
+      "img": 4,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "그렇게 시끄러우면 소송하든가요!",
+      "dialogue": true,
+      "img": 4,
+      "sfx": "dudung",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "여기서 아랫집이 싸우는 대신 한국환경공단에 층간소음 측정을 신청했음.",
+      "em": [
+        "층간소음 측정"
+      ],
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "기준은 낮 39데시벨, 밤 34데시벨인데 측정값이 이걸 한참 넘었음.",
+      "em": [
+        "34데시벨"
+      ],
+      "em_color": "yellow",
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "그것도 야간이랑 새벽에 집중돼 있었고, 옆집까지 피해를 호소했음.",
+      "img": 7,
+      "sfx": "tick"
+    },
+    {
+      "text": "이 측정표 하나 들고 진짜 소송을 했음.",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "2025년 9월 서울남부지법, 윗집은 아랫집 네 명한테 각각 300만 원씩 위자료 지급.",
+      "em": [
+        "300만 원씩"
+      ],
+      "em_color": "yellow",
+      "img": 9,
+      "sfx": "thud"
+    },
+    {
+      "text": "합쳐서 1,200만 원짜리 판결문이 그 종이 한 장임.",
+      "em": [
+        "1,200만 원"
+      ],
+      "img": 10,
+      "sfx": "cash"
+    },
+    {
+      "text": "아니, 애 뛰는 게 죄예요!!?",
+      "dialogue": true,
+      "img": 11,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "죄는 아닌데, 법원이 정한 수인한도를 넘으면 돈으로 갚는 거임.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "윗집 발망치 참고 사는 친구 있으면 이거 보내주셈. 측정부터.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

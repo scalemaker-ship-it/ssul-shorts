@@ -1,0 +1,126 @@
+{
+  "slug": "review305",
+  "type": "F형 (법조항 사이다) — 실제 판결(서울북부지법 2025.7)",
+  "source": "https://www.segye.com/newsView/20250714500730",
+  "title_line1": "\"벌레 나왔는데요\"",
+  "title_line2": "305번 환불받은 대학생의 결말",
+  "hook": "\"벌레 나왔는데요\" 305번 환불받은 대학생의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "벌레 사진 하나로 305번 환불받은 배달 진상"
+  },
+  "lines": [
+    {
+      "text": "벌레 나왔는데요 하면서 305번 환불받은 대학생이 있었음.",
+      "img": 1
+    },
+    {
+      "text": "배달 음식 시켜 먹고, 미리 찍어둔 벌레 사진을 사장한테 보내는 게 수법이었음.",
+      "img": 2,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "2년 동안 305번, 770만 원어치를 이렇게 공짜로 먹었음.",
+      "em": [
+        "305번"
+      ],
+      "em_color": "yellow",
+      "img": 3,
+      "sfx": "dudung"
+    },
+    {
+      "text": "환불 안 해주시면 언론에 제보하겠습니다!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 4,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "가게 망하게 해드릴게요?!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 4,
+      "sfx": "dudung",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "사장들은 별점 테러가 무서워서 그냥 환불해줬음.",
+      "img": 5,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 한 사장이 환불 대신 화면을 캡처하기 시작했음.",
+      "img": 6,
+      "sfx": "ding"
+    },
+    {
+      "text": "벌레 사진이 매번 똑같았거든.",
+      "em": [
+        "매번 똑같았거든"
+      ],
+      "img": 7,
+      "sfx": "pop"
+    },
+    {
+      "text": "여기서 죄명이 바뀜. 환불 분쟁이 아니라 형법 347조 사기임.",
+      "em": [
+        "사기"
+      ],
+      "em_color": "yellow",
+      "img": 8,
+      "sfx": "siren"
+    },
+    {
+      "text": "거짓 사진으로 돈을 받아내면 건당 사기고, 305번이면 305건임.",
+      "img": 8,
+      "sfx": "cash"
+    },
+    {
+      "text": "거기다 연락 거부한 사장한테 문자 15번 더 보낸 게 스토킹으로 붙었음.",
+      "em": [
+        "스토킹"
+      ],
+      "img": 9,
+      "sfx": "pop"
+    },
+    {
+      "text": "2025년 7월 서울북부지법, 징역 1년 실형에 스토킹 치료 40시간.",
+      "em": [
+        "징역 1년"
+      ],
+      "em_color": "yellow",
+      "img": 10,
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 그냥 환불 요청한 건데요!!?",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 11,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "770만 원 아끼려다 1년을 감옥에서 먹게 된 거임.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "배달 장사하는 친구 있으면 이거 보내주셈. 사진 캡처부터.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

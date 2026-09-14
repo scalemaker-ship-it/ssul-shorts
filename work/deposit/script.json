@@ -1,0 +1,127 @@
+{
+  "slug": "deposit",
+  "type": "F형 (법조항 사이다) — 주택임대차보호법 임차권등기명령",
+  "source": "https://realestate.ehyun.co.kr/wolse-deposit-refund-tenant-rights",
+  "title_line1": "\"다음 세입자 오면 줄게\"",
+  "title_line2": "집주인이 바로 입금한 이유",
+  "hook": "\"다음 세입자 오면 줄게\" 집주인이 등기부 보고 바로 입금한 이유",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "보증금 1억 5천 안 주던 집주인의 결말"
+  },
+  "lines": [
+    {
+      "text": "다음 세입자 오면 준다던 집주인이 등기부 한 줄 보고 바로 입금한 이유가 있음.",
+      "img": 1
+    },
+    {
+      "text": "전세 만기 날, 보증금 1억 5천을 돌려달라고 했더니",
+      "em": [
+        "1억 5천"
+      ],
+      "img": 2,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "다음 사람 들어와야 줄 수 있어요! 요즘 집 안 나가요!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 3,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "급하면 세입자 직접 구해오시든가?!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 3,
+      "sfx": "dudung",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "이사 갈 집 잔금은 다음 주인데, 못 나가면 그 계약금이 날아감.",
+      "img": 4,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 다음 세입자는 집주인 사정이지 내 사정이 아님. 계약 끝나면 그날 돌려주는 게 의무임.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "그래서 법원에 임차권등기명령을 신청했음.",
+      "em": [
+        "임차권등기명령"
+      ],
+      "em_color": "yellow",
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "이게 뭐냐면, 이사를 나가도 보증금 받을 권리가 그대로 남고,",
+      "img": 7,
+      "sfx": "tick"
+    },
+    {
+      "text": "그 집 등기부등본에 이 집 보증금 안 돌려줌이 한 줄로 박히는 거임.",
+      "em": [
+        "한 줄로 박히는"
+      ],
+      "img": 8,
+      "sfx": "siren"
+    },
+    {
+      "text": "등기부에 그 줄이 있으면 다음 세입자는 보자마자 계약 안 함.",
+      "img": 9,
+      "sfx": "dudung"
+    },
+    {
+      "text": "거기다 늦게 주는 날짜만큼 지연이자까지 붙음.",
+      "img": 9,
+      "sfx": "cash"
+    },
+    {
+      "text": "등기 나온 다음 날, 집주인한테 먼저 전화가 왔음.",
+      "img": 10,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "그거 빨리 지워주세요… 오늘 바로 보내드릴게요!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 10,
+      "sfx": "eng",
+      "emotion": "sad",
+      "intensity": 2.0
+    },
+    {
+      "text": "그날 오후 1억 5천 전액 입금.",
+      "em": [
+        "전액 입금"
+      ],
+      "em_color": "yellow",
+      "img": 11,
+      "sfx": "thud"
+    },
+    {
+      "text": "세입자 직접 구해오라는 말이 등기부 한 줄에 무너진 거임.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "전세 만기 앞둔 친구 있으면 이거 보내주셈.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

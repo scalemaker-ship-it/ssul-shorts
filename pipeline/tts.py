@@ -26,7 +26,8 @@ VOICES = {
     "piljae":  "tc_68257f68bc6e3c161ab5078d",  # 필재 — 남성 나레이션
     "minuk":   "tc_68f0727fd62a5934102f7ec0",  # 민욱 — 남성 나레이션 (이전 main)
     "yongsik": "tc_5feb2085cca1a479e73bac37",  # 용식 — 남성 나레이션 (현재 main)
-    "sehee":   "tc_611c3f692fac944dff493a04",  # 세희 — 여성 대사 (현재 sub1)
+    "sehee":   "tc_611c3f692fac944dff493a04",  # 세희 — 여성 대사 (이전 sub1)
+    "soye":    "tc_6837dec48fc46637a9272b88",  # 소예 — 여성 대사·구독 (현재 sub1, 2026-09-14)
 }
 
 # ── 3화자 구성 (2026-08-28 확정 / main 은 2026-08-30 용식으로 교체) ──
@@ -35,7 +36,7 @@ VOICES = {
 #   sub1  : 대사 — 여성 (세희 — 2026-08-30 사용자 지시로 예슬에서 변경, 유지)
 #   sub2  : 대사 — 남성 (중현). main 과 겹치지 않게 다른 화자를 쓴다
 VOICES["main"] = VOICES["minuk"]
-VOICES["sub1"] = VOICES["sehee"]
+VOICES["sub1"] = VOICES["soye"]   # 2026-09-14 사용자 지시: 세희 → 소예
 VOICES["sub2"] = VOICES["joonghyun"]
 
 # 대사(제3자가 실제로 내뱉는 말)의 기본 화자. line["voice"]="sub2" 로 바꾼다
@@ -178,7 +179,10 @@ def main():
         v = VOICES.get(vname, voice)
         emo, inten = auto_emotion(text)
         if dialogue:
-            emo, inten = "toneup", 2.0
+            # 2026-09-14 사용자 지시: 대사가 심심하다 → 기본 angry(따지고 화내는 톤).
+            # 줄에 "emotion" 을 주면 그걸 쓴다: angry(황당·따짐·도발) / happy(비꼼·득의양양)
+            # / sad(다급·울먹) / toneup(그냥 높게). 텍스트 끝 "!!?" 도 억양을 세게 만든다.
+            emo, inten = "angry", 2.0
         emo = line.get("emotion", emo)
         inten = line.get("intensity", inten)
 

@@ -1,0 +1,129 @@
+{
+  "slug": "gymrefund",
+  "type": "F형 (법조항 사이다) — 소비자분쟁해결기준(체육시설 중도해지)",
+  "source": "https://blog.ehyun.co.kr/health-club-refund-guide",
+  "title_line1": "\"이벤트가라 환불 안 됩니다\"",
+  "title_line2": "헬스장 사장의 계산법",
+  "hook": "\"이벤트가라 환불 안 됩니다\" 헬스장 사장의 계산법",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "1년치 끊고 석 달 만에 해지하러 간 헬스장"
+  },
+  "lines": [
+    {
+      "text": "이벤트가라 환불 안 된다는 헬스장 사장의 계산법이 있음.",
+      "img": 1
+    },
+    {
+      "text": "1년 회원권 66만 원을 이벤트가로 끊었는데, 석 달 만에 이직해서 해지하러 갔음.",
+      "em": [
+        "66만 원"
+      ],
+      "img": 2,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "이벤트 상품은 환불 불가예요! 계약서에 쓰여 있잖아요?!",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 3,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "굳이 하시겠다면 정상가 월 15만 원으로 차감할게요. 그럼 남는 거 없네요?",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 3,
+      "sfx": "dudung",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "계산해보면 석 달에 45만 원 쓴 걸로 치고, 위약금까지 떼면 돌려받을 게 0원임.",
+      "em": [
+        "0원"
+      ],
+      "em_color": "yellow",
+      "img": 4,
+      "sfx": "cash"
+    },
+    {
+      "text": "근데 이건 사장 마음대로 정하는 게 아님.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "공정위 소비자분쟁해결기준에 헬스장 중도해지가 딱 정해져 있음.",
+      "em": [
+        "소비자분쟁해결기준"
+      ],
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "위약금은 총 계약금액의 10%, 이용한 기간은 정상가가 아니라 실제 낸 돈으로 계산함.",
+      "em": [
+        "10%"
+      ],
+      "em_color": "yellow",
+      "img": 7,
+      "sfx": "cash"
+    },
+    {
+      "text": "환불 불가라고 써놔도 소용없음. 법이 계약서 위에 있으니까.",
+      "img": 7,
+      "sfx": "pop"
+    },
+    {
+      "text": "66만 원 기준으로 석 달 치 16만 5천 원 빼고, 위약금 6만 6천 원 빼면 43만 원 가까이 돌려받는 거임.",
+      "em": [
+        "43만 원"
+      ],
+      "em_color": "yellow",
+      "img": 8,
+      "sfx": "cash"
+    },
+    {
+      "text": "소비자원에 접수하고 내용증명 한 장 보냈더니",
+      "img": 9,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "사흘 뒤 계좌에 42만 9천 원이 입금됨.",
+      "em": [
+        "42만 9천 원"
+      ],
+      "img": 10,
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 이벤트가라니까요!!?",
+      "dialogue": true,
+      "voice": "sub2",
+      "img": 11,
+      "sfx": "eng",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "정상가 차감이라는 계산법은 법이 인정 안 함.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "헬스장 끊었다가 이직한 친구 있으면 이거 보내주셈.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}
