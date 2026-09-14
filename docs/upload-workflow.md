@@ -370,3 +370,27 @@ https://www.youtube.com/watch?v=<영상ID>
 
 | 2026-09-04 22:50 | `yeouido` | 여의도 돗자리 알박기 | https://youtube.com/shorts/RG7H37xq3u4 | Zernio 즉시 공개 |
 | 2026-09-05 18:54 | `rent` | 서울 아파트 평균 월세 152만원 | https://youtube.com/shorts/mL2kN5_ez0E | Zernio 즉시 공개 |
+
+| 2026-09-14 20:00 | `jejuvisa` | https://youtube.com/shorts/6rpGo4aaNJ0 | 예약(Studio). 개드립 724475314. 태섭 나레이션·motion·로컬 SDXL 10장. 고정 댓글은 공개 후 |
+| 2026-09-14 20:30 | `wage450` | https://youtube.com/shorts/cWgG6zzwlhc | 예약(Studio). 개드립 724361932. 태섭 나레이션·motion·로컬 SDXL 10장. 고정 댓글은 공개 후 |
+| 2026-09-14 21:00 | `gumi` | https://youtube.com/shorts/Ocm9ngsFnWM | 예약(Studio). 개드립 724450584. 태섭 나레이션·motion·로컬 SDXL 10장. 고정 댓글은 공개 후 |
+| 2026-09-14 21:30 | `mousewheel` | https://youtube.com/shorts/T90vDsvKg7c | 예약(Studio). 개드립 724485263. 태섭 나레이션·motion·로컬 SDXL 10장. 고정 댓글은 공개 후 |
+| 2026-09-14 22:00 | `height180` | https://youtube.com/shorts/W7sgG1yNaGI | 예약(Studio). 개드립 724359382. 태섭 나레이션·motion·로컬 SDXL 10장. 고정 댓글은 공개 후 |
+
+> **2026-09-14 배치에서 배운 것** — ① 시간 드롭다운은 **날짜보다 먼저** 고른다. 달력을 먼저 열면
+> 백드롭이 남아 시간 칸 클릭이 백드롭에 먹힌다. 시간→스크린샷(리페인트)→`tp-yt-paper-item` 을
+> `getBoundingClientRect().height>0` 로 찾아 `.click()`(`offsetParent` 는 shadow DOM 이라 null).
+> ② 열린 `TP-YT-PAPER-DIALOG` 에 `.close()` 를 부르면 **업로드 다이얼로그 자체가 닫힌다**(초안 저장됨).
+> 복구는 `/video/<ID>/edit` 상단 **「초안 수정」** 버튼 — 제목·설명 유지된 채 다이얼로그가 다시 열린다.
+> ③ JS 안에서 `for … await sleep` 폴링 루프는 CDP 타임아웃이 난다. 상태는 짧은 JS 로 따로 확인한다.
+
+| 2026-09-14 22:30 | `interlock` | https://youtube.com/shorts/BI_JdkSEolg | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
+| 2026-09-14 23:00 | `otcdrug` | https://youtube.com/shorts/aR7D3t4wAZM | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
+| 2026-09-14 23:30 | `dropout` | https://youtube.com/shorts/zh0GboNjFW0 | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
+| 2026-09-15 00:00 | `tjchart` | https://youtube.com/shorts/UOinIaAFjVM | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
+| 2026-09-15 00:30 | `nurseroom` | https://youtube.com/shorts/eBPKVqV3PwU | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
+| 2026-09-15 20:00 | `parking` | https://youtube.com/shorts/E2rJbBcW35k | 예약(Studio). **F형 법조항 사이다 첫 편**(주차장법 8/28 시행). **효과음+화면흔들림 첫 적용**(`sfx`/`shake`, pipeline/sfx.py). 이미지 12장 gpt + 13번 로컬 SDXL(codex 한도). 고정 댓글은 공개 후 |
+
+> **2026-09-14 재업로드** — 위 5편(interlock·otcdrug·dropout·tjchart·nurseroom)은 사용자 지적(댓글 중계 문장 제거, 이미지 10장 이상)으로 초판 예약본을 Studio 에서 **완전삭제**하고 같은 슬롯에 다시 올렸다. 링크는 재업로드본 ID 로 교체함. 삭제는 콘텐츠 목록 체크박스 5개 선택 → 「추가 작업」 → 「완전삭제」 → 확인 체크박스 → 완전삭제 (일괄 삭제가 행별 ⋮ 보다 빠르다).
+
+> **2026-09-14 tjchart 3판** — 사용자 요청 "실제 사진 활용"으로 img 01~04 를 TJ미디어 공식 차트 페이지 캡처(앨범아트·메뉴 제거, 순위·곡명·가수 열만, 연도 태그 우리가 얹음)로 교체. 초판 "10위 안 6곡" 은 오기 → 5곡(1·3·4·6·8위, 바다의 왕자 2000년)으로 수정. 2판(3Y-Ec7myV1o) 완전삭제 후 재업로드.

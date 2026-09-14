@@ -380,9 +380,14 @@ def main():
                 char = os.path.join(out, f"ov_{n:03d}_c.png")
                 build_overlay(sc, c, character=True, spans=csp,
                               em_color=emc, bar_text=bt, dialogue=dlg).save(char)
+            # 효과음·흔들림은 문장 시작에만 — 첫 덩어리에만 실어 보낸다 (2026-09-14)
+            first = (c == chunks[0])
+            sfx = ln.get("sfx") if first else None
+            shake = ln.get("shake") if first else None
             manifest.append({"base": base, "char": char, "text": c,
                              "img": imgs[img_i] if img_i >= 0 else None,
-                             "line": i, "start": round(t, 3), "dur": dur})
+                             "line": i, "start": round(t, 3), "dur": dur,
+                             "sfx": sfx, "shake": shake})
             t += dur
             n += 1
 

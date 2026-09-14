@@ -105,3 +105,40 @@ grep -c "<게시글ID>" docs/used-sources.md
 | `onepiece` | — | 일본 만화 최종보스를 한국 커뮤가 찍음? | https://kekewo.net/원피스-앵무새 |
 | `hanja` | 723235519 | 초등 교과서에 한자가 10년 만에 다시 들어옴? | https://www.dogdrip.net/dogdrip/723235519 |
 | `crab` | 723234614 | 골칫거리 꽃게가 316억이 됨 | https://www.dogdrip.net/dogdrip/723234614 |
+| `vacation` | 723341882 | 두 달 휴가+연봉4천 vs 일주일 휴가+연봉6천 | https://www.dogdrip.net/dogdrip/723341882 |
+| `walkrun` | 723459603 | 의대교수 "걷기 2시간 = 달리기 1분" | https://www.dogdrip.net/dogdrip/723459603 |
+| `dink` | 723466669 | "애 안 낳을 거면 결혼 왜 함?" 결혼관 찬반 | https://www.dogdrip.net/dogdrip/723466669 |
+| `egg` | 723619544 | 더착한계란 60개 9,990원, 유통업계 반발(하나금융) | https://www.dogdrip.net/dogdrip/723619544 |
+
+- galchi | https://www.dogdrip.net/dogdrip/723897579 | 제주 갈치조림 4인분 양 논란 | 2026-09-10 게시 https://youtube.com/shorts/unw1uo5VKU4
+
+- gpt | https://www.dogdrip.net/dogdrip/724202496 | 챗GPT 월 30만원이 제일 싼 요금제 | 2026-09-12 즉시공개 https://youtube.com/shorts/uX9H6CCjIt8
+- applefold | https://www.dogdrip.net/dogdrip/724194012 | 애플 폴드폰 낚임(아이폰+책) | 2026-09-13 07:00 예약 https://youtube.com/shorts/zdbyCgEh6y8
+- top1 | https://www.dogdrip.net/dogdrip/724199422 | 학년1등 매일 조퇴한 이유(감동) | 2026-09-13 13:00 예약 https://youtube.com/shorts/N98hva_3IlM
+- coffee | https://www.dogdrip.net/dogdrip/724191780 | 남의집 커피 아저씨(카페 착각) | 2026-09-13 20:00 예약 https://youtube.com/shorts/61L4ZXBFBWI
+
+- yanggu | https://www.dogdrip.net/dogdrip/724249121 | 양구군 군인 주민등록 이전 촉구 | 2026-09-12 20:00 예약 https://youtube.com/shorts/eYOWrVFRrlw
+- china | https://www.dogdrip.net/dogdrip/724280719 | 상반기 171만명 중국여행 | 2026-09-12 20:30 예약 https://youtube.com/shorts/Iv5UXTVVpLA
+- nike | https://www.dogdrip.net/dogdrip/724242492 | 나이키 정품 품질저하·짭이 나음 | 2026-09-12 21:00 예약 https://youtube.com/shorts/16hoktUR6m0
+- aiclone | https://www.dogdrip.net/dogdrip/724272707 | 딥시크·키미 미국AI 땡겨쓰기 썰(미확인) | 2026-09-12 21:30 예약 https://youtube.com/shorts/OqkpFDGFBF4
+- plumber | https://www.dogdrip.net/dogdrip/724246787 | 배관공 된 교수 유머(적분 반전) | 2026-09-12 22:00 예약 https://youtube.com/shorts/e4KizRQexkI
+
+- samsung | https://www.dogdrip.net/dogdrip/724316107 | 삼성 폴더블 10년 vs 애플, 하이테크 이미지 논쟁 | 2026-09-13 20:00 예약 https://youtube.com/shorts/BGqcM_swrZk
+- coupang | https://www.dogdrip.net/dogdrip/724315717 | 배달 먹튀 CCTV·직원카드로 딱 걸림 | 2026-09-13 20:30 예약 https://youtube.com/shorts/ptVQeS76yKU
+- ppuring | https://www.dogdrip.net/dogdrip/724316400 | 일본인 뿌링클 극찬 유네스코 등록하라 | 2026-09-13 21:00 예약 https://youtube.com/shorts/V4gqrlFwOls
+- diet | https://www.dogdrip.net/dogdrip/724317989 | 1200kcal인데 안빠짐, 47% 적게신고 반전 | 2026-09-13 21:30 예약 https://youtube.com/shorts/N_yPitmpkGQ
+- coupon | https://www.dogdrip.net/dogdrip/724337338 | 중국집쿠폰 55장 주인바뀌어 무효 허무 | 2026-09-13 22:00 예약 https://youtube.com/shorts/J4SklFrThvo
+
+- jejuvisa | https://www.dogdrip.net/dogdrip/724475314 | 제주 무비자 외국인 육지 이동 건의(찬반) | 2026-09-14 20:00 예약 https://youtube.com/shorts/6rpGo4aaNJ0
+- wage450 | https://www.dogdrip.net/dogdrip/724361932 | 월급450 줘도 안한다→주7일 11시간 반전 | 2026-09-14 20:30 예약 https://youtube.com/shorts/cWgG6zzwlhc
+- gumi | https://www.dogdrip.net/dogdrip/724450584 | 구미공장 신라면 더 맛있다 소문 검증 | 2026-09-14 21:00 예약 https://youtube.com/shorts/Ocm9ngsFnWM
+- mousewheel | https://www.dogdrip.net/dogdrip/724485263 | 마우스 휠 검지vs중지, MS 특허 도면 | 2026-09-14 21:30 예약 https://youtube.com/shorts/T90vDsvKg7c
+- height180 | https://www.dogdrip.net/dogdrip/724359382 | 2천만원에 키180 찬반(E형) | 2026-09-14 22:00 예약 https://youtube.com/shorts/W7sgG1yNaGI
+
+- interlock | https://korea.kr/news/reporterView.do?newsId=148958728 | 10월24일 음주운전 방지장치 조건부 면허(정보·위험성) | 2026-09-14 22:30 예약 https://youtube.com/shorts/BI_JdkSEolg
+- otcdrug | https://etoday.co.kr/news/view/2609028 | 편의점 상비약 14년 만에 11→20개, 약사회 반대(찬반) | 2026-09-14 23:00 예약 https://youtube.com/shorts/aR7D3t4wAZM
+- dropout | https://edaily.co.kr/News/Read?newsId=01141446645479424 | 고1 자퇴 1만명 돌파, 5등급제·검정고시(찬반) | 2026-09-14 23:30 예약 https://youtube.com/shorts/zh0GboNjFW0
+- tjchart | https://fmkorea.com/best/10321081656 + tjmedia.com/chart/top100 | TJ 노래방 1위 2004년 노래, 10위 내 6곡 20년 전 | 2026-09-15 00:00 예약 https://youtube.com/shorts/UOinIaAFjVM
+- nurseroom | https://fmkorea.com/best/9038779140 | 여학교 보건실=휴게실 vs 남학교=외상센터(공감) | 2026-09-15 00:30 예약 https://youtube.com/shorts/eBPKVqV3PwU
+
+- parking | https://www.news-wa.com/article/automobiles/drive-info/2026/08/28/20260828500027 | F형 첫 편: 아파트 입구 알박기 → 8/28 주차장법 견인·과태료(각색) | 2026-09-15 20:00 예약 https://youtube.com/shorts/E2rJbBcW35k

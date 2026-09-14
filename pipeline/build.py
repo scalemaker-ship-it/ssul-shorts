@@ -24,6 +24,30 @@ CW = L.W                                    # 콘텐츠 창 폭
 CH = L.px(L.CONTENT_BOT) - L.px(L.CONTENT_TOP)   # 콘텐츠 창 높이
 CY = L.px(L.CONTENT_TOP)
 
+# ── 효과음·흔들림 (2026-09-14 사용자 지시) ─────────────────────────
+# 문장 시작에 script.json 의 "sfx" 를 얹고, 황당(dudung)·어이없음(eng)·몰락(thud)은
+# 화면까지 흔든다. "shake": true/false 로 강제할 수 있다.
+SHAKE_DEFAULT = {"dudung", "eng", "thud"}
+SHAKE_SEC = 0.42                 # 흔들리는 시간(원속도 기준)
+SHAKE_PX = 26                    # 최대 진폭(px)
+SHAKE_AMP = {"eng": 0.7, "thud": 1.2}
+SFX_VOL = {"dudung": 0.8, "thud": 0.8, "eng": 0.5, "ding": 0.45, "cash": 0.5,
+           "siren": 0.4, "whoosh": 0.45, "boing": 0.5, "tick": 0.5, "pop": 0.4}
+
+
+def shake_offset(t, shake_at):
+    """t 시각의 흔들림 오프셋(dx, dy). 감쇠하는 사인 진동 — 좌우 위주, 상하 약간."""
+    import math
+    for at, amp in shake_at:
+        dt = t - at
+        if 0 <= dt < SHAKE_SEC:
+            k = 1 - dt / SHAKE_SEC
+            decay = k * k
+            dx = int(SHAKE_PX * amp * decay * math.sin(dt * 2 * math.pi * 14))
+            dy = int(SHAKE_PX * 0.45 * amp * decay * math.cos(dt * 2 * math.pi * 11))
+            return dx, dy
+    return 0, 0
+
 
 def ease(x):
     """부드럽게 시작하고 부드럽게 끝나는 보간 (0..1)."""
@@ -124,6 +148,30 @@ def main():
         filters.append(f"[{idx}:a]volume=0.30,afade=t=in:d=1.0[b]")
         mix.append("[b]")
         idx += 1
+    # ── 효과음 (2026-09-14) — 문장 시작 시각에 원속도로 얹는다. 나레이션은 배속을
+    # 거친 뒤라 시각도 /speed 로 맞춘다. 흔들림 시점(shake_at)도 여기서 같이 모은다.
+    sfx_dir = os.path.join(ROOT, "assets", "sfx")
+    shake_at = []       # (원속도 기준 시각, 세기)
+    if "--no-sfx" not in sys.argv:
+        for m in man:
+            name = m.get("sfx")
+            shk = m.get("shake")
+            if shk is None and name:
+                shk = name in SHAKE_DEFAULT
+            if shk:
+                shake_at.append((m["start"], SHAKE_AMP.get(name, 1.0)))
+            if not name:
+                continue
+            p = os.path.join(sfx_dir, f"{name}.wav")
+            if not os.path.exists(p):
+                print(f"! 효과음 없음: {name} (pipeline/sfx.py 로 생성)")
+                continue
+            ms = int(m["start"] / speed * 1000)
+            extras += ["-i", p]
+            vol = SFX_VOL.get(name, 0.55)
+            filters.append(f"[{idx}:a]volume={vol},adelay={ms}|{ms}[s{idx}]")
+            mix.append(f"[s{idx}]")
+            idx += 1
     if len(mix) > 1:
         filters.append("".join(mix) +
                        f"amix=inputs={len(mix)}:duration=first:normalize=0[a]")
@@ -217,6 +265,15 @@ def main():
                 canvas.paste(cur, (0, CY))
         else:
             canvas.paste((127, 127, 127), (0, CY, CW, CY + CH))
+
+        # 흔들림 — 이미지 창만 흔든다(자막·타이틀은 고정). 가장자리는 살짝 확대해 가린다.
+        dx, dy = shake_offset(t, shake_at) if shake_at else (0, 0)
+        if dx or dy:
+            win = canvas.crop((0, CY, CW, CY + CH))
+            pad = SHAKE_PX + 4
+            big = win.resize((CW + 2 * pad, CH + 2 * pad), Image.BILINEAR)
+            win = big.crop((pad - dx, pad - dy, pad - dx + CW, pad - dy + CH))
+            canvas.paste(win, (0, CY))
 
         ov = overlay(m["char"] if (m["char"] and t < L.CHAR_SEC) else m["base"])
         frame = Image.alpha_composite(canvas.convert("RGBA"), ov).convert("RGB")
