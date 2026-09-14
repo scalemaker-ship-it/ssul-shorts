@@ -142,3 +142,7 @@ grep -c "<게시글ID>" docs/used-sources.md
 - nurseroom | https://fmkorea.com/best/9038779140 | 여학교 보건실=휴게실 vs 남학교=외상센터(공감) | 2026-09-15 00:30 예약 https://youtube.com/shorts/eBPKVqV3PwU
 
 - parking | https://www.news-wa.com/article/automobiles/drive-info/2026/08/28/20260828500027 | F형 첫 편: 아파트 입구 알박기 → 8/28 주차장법 견인·과태료(각색) | 2026-09-15 20:00 예약 https://youtube.com/shorts/E2rJbBcW35k
+- review305 | https://www.segye.com/newsView/20250714500730 | F형: 벌레사진 305번 환불 대학생 징역 1년(실제 판결) | 2026-09-15 20:30 예약 https://youtube.com/shorts/AhbpmcD0-sY
+- floornoise | https://www.lawtimes.co.kr/news/articleView.html?idxno=213117 | F형: 층간소음 위자료 각 300만(서울남부지법 2025.9) | 2026-09-15 21:00 예약 https://youtube.com/shorts/_JJQRuGy2HQ
+- gymrefund | https://blog.ehyun.co.kr/health-club-refund-guide | F형: 헬스장 이벤트가 환불불가 vs 소비자분쟁해결기준 10%(각색) | 2026-09-15 21:30 예약 https://youtube.com/shorts/k5rF4XR5wFI
+- deposit | https://realestate.ehyun.co.kr/wolse-deposit-refund-tenant-rights | F형: 보증금 미반환 → 임차권등기명령(각색) | 2026-09-15 22:00 예약 https://youtube.com/shorts/bVtOMYsyR5I

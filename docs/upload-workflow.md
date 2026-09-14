@@ -390,7 +390,13 @@ https://www.youtube.com/watch?v=<영상ID>
 | 2026-09-15 00:00 | `tjchart` | https://youtube.com/shorts/UOinIaAFjVM | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
 | 2026-09-15 00:30 | `nurseroom` | https://youtube.com/shorts/eBPKVqV3PwU | 예약(Studio). 레퍼런스 채널 발굴(자나스·짧은주녑·뇌전구) → 원 보도 확인. **여성 대사·구독 = 소예 첫 배치**. 고정 댓글은 공개 후 |
 | 2026-09-15 20:00 | `parking` | https://youtube.com/shorts/E2rJbBcW35k | 예약(Studio). **F형 법조항 사이다 첫 편**(주차장법 8/28 시행). **효과음+화면흔들림 첫 적용**(`sfx`/`shake`, pipeline/sfx.py). 이미지 12장 gpt + 13번 로컬 SDXL(codex 한도). 고정 댓글은 공개 후 |
+| 2026-09-15 20:30 | `review305` | https://youtube.com/shorts/AhbpmcD0-sY | 예약(Studio). F형 2편(실제 판결). **자체 개구리 캐릭터 2컷** — 사용자 "별로", 추가 생성 금지. 대사 angry 첫 적용. 고정 댓글은 공개 후 |
+| 2026-09-15 21:00 | `floornoise` | https://youtube.com/shorts/_JJQRuGy2HQ | 예약(Studio, 초안 수정 경로). F형 3편(실제 판결). 구 자막 청킹본(사용자 "지금껀 그냥 올려") |
+| 2026-09-15 21:30 | `gymrefund` | https://youtube.com/shorts/k5rF4XR5wFI | 예약(Studio). F형 4편(각색). gpt 12장 |
+| 2026-09-15 22:00 | `deposit` | https://youtube.com/shorts/bVtOMYsyR5I | 예약(Studio). F형 5편(각색). 로컬 SDXL 12장 — 문서컷 글씨 뭉개짐 감수 |
 
 > **2026-09-14 재업로드** — 위 5편(interlock·otcdrug·dropout·tjchart·nurseroom)은 사용자 지적(댓글 중계 문장 제거, 이미지 10장 이상)으로 초판 예약본을 Studio 에서 **완전삭제**하고 같은 슬롯에 다시 올렸다. 링크는 재업로드본 ID 로 교체함. 삭제는 콘텐츠 목록 체크박스 5개 선택 → 「추가 작업」 → 「완전삭제」 → 확인 체크박스 → 완전삭제 (일괄 삭제가 행별 ⋮ 보다 빠르다).
 
 > **2026-09-14 tjchart 3판** — 사용자 요청 "실제 사진 활용"으로 img 01~04 를 TJ미디어 공식 차트 페이지 캡처(앨범아트·메뉴 제거, 순위·곡명·가수 열만, 연도 태그 우리가 얹음)로 교체. 초판 "10위 안 6곡" 은 오기 → 5곡(1·3·4·6·8위, 바다의 왕자 2000년)으로 수정. 2판(3Y-Ec7myV1o) 완전삭제 후 재업로드.
+
+> **2026-09-15 규칙 변경** — ① 자막은 문장 끝·쉼표에서 끊는다(`subs.py`, 이후 제작분부터) ② 대사 기본 감정 angry(§12) ③ 개구리 캐릭터 추가 생성 금지 ④ Studio 시간 드롭다운은 달력을 **Escape 로 닫은 뒤** `input[data-claude=time]` 셀렉터 클릭이 안정적 — 좌표 클릭은 달력 백드롭에 먹힌다.
