@@ -1,0 +1,123 @@
+{
+  "slug": "noshow40",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148956738",
+  "title_line1": "\"돈 낸 것도 없는데 뭘 물어요\"",
+  "title_line2": "30인분 노쇼한 단체 손님",
+  "hook": "\"돈 낸 것도 없는데 뭘 물어요\" 30인분 노쇼한 단체 손님",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "30인분 준비했는데 아무도 안 온 날"
+  },
+  "lines": [
+    {
+      "text": "돈 낸 것도 없는데 뭘 무냐며 30인분 노쇼한 단체 손님이 있었음.",
+      "img": 1
+    },
+    {
+      "text": "회식 30명 예약이라 새벽부터 한우 30인분 재워놓고 홀을 통째로 비웠는데, 저녁 7시에 아무도 안 왔음.",
+      "img": 2,
+      "em": [
+        "30인분"
+      ],
+      "em_color": "yellow",
+      "sfx": "whoosh"
+    },
+    {
+      "text": "전화했더니 아, 취소됐어요. 말씀 못 드렸네요!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "예약금 낸 것도 없는데 뭘 물어요. 알아서 하세요?!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "그날 재료값이랑 비운 홀 매출 합치면 150만 원이 날아갔음.",
+      "img": 4,
+      "em": [
+        "150만 원"
+      ],
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 이 사장은 예약받을 때 문자 한 통을 보내놨었음.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "예약보증금이랑 위약금 기준을 문자로 미리 고지한 거임.",
+      "img": 6,
+      "em": [
+        "미리 고지"
+      ],
+      "sfx": "pop"
+    },
+    {
+      "text": "2025년 12월 18일부터 단체 예약은 이렇게 사전 고지만 하면, 노쇼 위약금을 총 이용금액의 40%까지 청구할 수 있음.",
+      "img": 7,
+      "em": [
+        "40%"
+      ],
+      "em_color": "yellow",
+      "sfx": "siren"
+    },
+    {
+      "text": "30인분 120만 원어치면 48만 원임.",
+      "img": 8,
+      "em": [
+        "48만 원"
+      ],
+      "sfx": "cash"
+    },
+    {
+      "text": "문자 캡처랑 재료 영수증 붙여서 소비자원에 접수했더니",
+      "img": 9,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "일주일 만에 48만 원이 입금됐음.",
+      "img": 10,
+      "em": [
+        "48만 원 입금"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 그냥 예약만 한 건데요!!?",
+      "img": 11,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "예약도 계약이라서, 문자 한 통이 48만 원짜리 증거가 된 거임.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "식당 하는 친구 있으면 이거 보내주셈. 예약 문자부터.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "carrepair",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=675&ccfNo=2&cciNo=3&cnpClsNo=1",
+  "title_line1": "\"이왕 뜯은 김에 다 갈았어요\"",
+  "title_line2": "수리비 80만 원 청구한 정비소",
+  "hook": "\"이왕 뜯은 김에 다 갈았어요\" 수리비 80만 원 청구한 정비소",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "브레이크 패드만 맡겼는데 80만 원 나옴"
+  },
+  "lines": [
+    {
+      "text": "이왕 뜯은 김에 다 갈았다며 수리비 80만 원을 청구한 정비소가 있었음.",
+      "img": 1
+    },
+    {
+      "text": "브레이크 패드 교체 12만 원 견적 듣고 차를 맡겼는데, 찾으러 갔더니 청구서가 80만 원이었음.",
+      "img": 2,
+      "em": [
+        "80만 원"
+      ],
+      "em_color": "yellow",
+      "sfx": "whoosh"
+    },
+    {
+      "text": "디스크도 갈고 오일도 갈고 부싱도 갈았어요! 이왕 뜯은 김에요?!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "차 찾으려면 결제하셔야죠. 안 하면 차 못 드려요!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "전화 한 통 없었고, 동의한 적도 없는 항목이 68만 원어치였음.",
+      "img": 4,
+      "em": [
+        "68만 원"
+      ],
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 여기서 차주가 카드를 꺼내는 대신 자동차관리법을 꺼냈음.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "자동차관리법 58조. 정비업자는 정비 전에 견적서를 주고, 의뢰인 동의 없이 임의로 정비하면 안 됨.",
+      "img": 6,
+      "em": [
+        "동의 없이"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "어기면 100만 원 이하 과태료에 영업정지까지 갈 수 있음.",
+      "img": 6,
+      "em": [
+        "영업정지"
+      ],
+      "sfx": "siren"
+    },
+    {
+      "text": "견적서 없이 한 정비는 지불할 의무가 없고, 차를 안 주면 그건 별개 문제가 됨.",
+      "img": 7,
+      "sfx": "pop"
+    },
+    {
+      "text": "구청 교통과에 신고하겠다고 하고 처음 견적 12만 원만 결제했더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "사장이 5분 만에 청구서를 다시 뽑아 왔음. 12만 원.",
+      "img": 9,
+      "em": [
+        "12만 원"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 이미 다 갈았는데요!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "동의 없이 간 부품은 정비소가 공부한 값이 된 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "차 정비 맡길 일 있는 친구한테 이거 보내주셈. 견적서 먼저.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

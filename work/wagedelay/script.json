@@ -1,0 +1,121 @@
+{
+  "slug": "wagedelay",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://kbthink.com/business/tips/wage-arrears-prevention-law.html",
+  "title_line1": "\"월급은 다음 달에 줄게, 고소하든가\"",
+  "title_line2": "사장이 3배를 물게 된 이유",
+  "hook": "\"월급은 다음 달에 줄게, 고소하든가\" 사장이 3배를 물게 된 이유",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "석 달째 월급 안 주는 사장"
+  },
+  "lines": [
+    {
+      "text": "월급은 다음 달에 줄 테니 고소하라던 사장이 3배를 물게 된 이유가 있음.",
+      "img": 1
+    },
+    {
+      "text": "월급 250만 원짜리 직장에서 석 달째 월급이 안 나왔음. 750만 원임.",
+      "img": 2,
+      "em": [
+        "750만 원"
+      ],
+      "em_color": "yellow",
+      "sfx": "whoosh"
+    },
+    {
+      "text": "요즘 회사 어려운 거 알잖아. 다음 달에 한꺼번에 줄게!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "싫으면 고소하든가. 어차피 벌금 조금 내고 끝이야?!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "실제로 예전엔 그 말이 반쯤 맞았음. 합의하면 처벌도 안 받았거든.",
+      "img": 4,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 이 직원은 달력을 봤음. 2025년 10월 23일.",
+      "img": 5,
+      "em": [
+        "10월 23일"
+      ],
+      "em_color": "yellow",
+      "sfx": "ding"
+    },
+    {
+      "text": "그날부터 상습 임금체불 근절법이 시행됐음.",
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "고의로 체불하면 법원에 체불액의 최대 3배까지 손해배상을 청구할 수 있고, 재직 중이어도 연 20% 지연이자가 붙음.",
+      "img": 6,
+      "em": [
+        "3배"
+      ],
+      "em_color": "yellow",
+      "sfx": "siren"
+    },
+    {
+      "text": "750만 원이면 최대 2,250만 원임.",
+      "img": 7,
+      "em": [
+        "2,250만 원"
+      ],
+      "sfx": "cash"
+    },
+    {
+      "text": "노동청에 진정 넣고 3배 배상 청구하겠다고 문자를 보냈더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "다음 날 아침 750만 원이 전액 입금됐음.",
+      "img": 9,
+      "em": [
+        "전액 입금"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 다음 달에 준다고 했잖아!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "다음 달이 2,250만 원짜리라는 걸 사장도 계산한 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "월급 밀리는 친구 있으면 이거 보내주셈. 10월 23일부터임.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

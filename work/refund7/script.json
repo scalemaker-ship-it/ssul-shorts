@@ -1,0 +1,117 @@
+{
+  "slug": "refund7",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=835&ccfNo=4&cciNo=1&cnpClsNo=2",
+  "title_line1": "\"세일 상품은 교환만 돼요\"",
+  "title_line2": "환불 거부한 쇼핑몰의 결말",
+  "hook": "\"세일 상품은 교환만 돼요\" 환불 거부한 쇼핑몰의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "택배 받고 바로 환불 요청했는데 거부당함"
+  },
+  "lines": [
+    {
+      "text": "세일 상품은 교환만 된다며 환불 거부한 쇼핑몰이 있었음.",
+      "img": 1
+    },
+    {
+      "text": "18만 원짜리 코트를 세일가로 샀는데 받아보니 색이 사진이랑 완전 달라서, 받은 날 바로 환불 요청했음.",
+      "img": 2,
+      "em": [
+        "18만 원"
+      ],
+      "sfx": "whoosh"
+    },
+    {
+      "text": "세일 상품은 환불 불가예요! 상품 페이지에 써 있잖아요?!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "교환은 해드릴게요. 환불은 안 돼요!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "게시판 보니까 같은 답변을 받은 사람이 수십 명이었음.",
+      "img": 4,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 이건 쇼핑몰이 정할 수 있는 게 아님.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "전자상거래법 17조. 온라인으로 산 물건은 받은 날부터 7일 안에 이유 없이 청약철회가 됨.",
+      "img": 6,
+      "em": [
+        "7일"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "세일이든 아니든 상관없고, 환불 불가라고 써놔도 소용없음.",
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "환불 요청 받으면 3영업일 안에 돈을 돌려줘야 하고, 늦으면 연 15% 지연배상금까지 붙음.",
+      "img": 7,
+      "em": [
+        "3영업일"
+      ],
+      "sfx": "cash"
+    },
+    {
+      "text": "법 조문 캡처해서 보내고, 안 되면 공정위 신고하겠다고 했더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "다음 날 18만 원 전액 환불에 반품 택배비까지 쇼핑몰 부담으로 처리됐음.",
+      "img": 9,
+      "em": [
+        "전액 환불"
+      ],
+      "em_color": "yellow",
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 저희 규정이 그런데요!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "쇼핑몰 규정 위에 법이 있는 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "온라인 쇼핑 자주 하는 친구 있으면 이거 보내주셈. 7일임.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

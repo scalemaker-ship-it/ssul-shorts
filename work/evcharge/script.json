@@ -1,0 +1,120 @@
+{
+  "slug": "evcharge",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://www.seosan.go.kr/www/contents.do?key=9213",
+  "title_line1": "\"5분만 대는 건데 왜요\"",
+  "title_line2": "충전구역 알박기 차주의 결말",
+  "hook": "\"5분만 대는 건데 왜요\" 충전구역 알박기 차주의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "전기차 충전구역에 매일 세워두는 옆집 차"
+  },
+  "lines": [
+    {
+      "text": "5분만 대는 건데 왜 그러냐던 충전구역 알박기 차주가 있었음.",
+      "img": 1
+    },
+    {
+      "text": "아파트 충전기가 두 대뿐인데 한 자리를 휘발유 차가 매일 밤 차지하고 있었음.",
+      "img": 2,
+      "em": [
+        "휘발유 차"
+      ],
+      "sfx": "whoosh"
+    },
+    {
+      "text": "잠깐 대는 건데 왜요? 자리 없어서 그래요!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "전기차라고 유세 떠세요? 신고하든가요?!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "충전을 못 해서 새벽에 회사 근처 충전소까지 돌아다닌 게 2주였음.",
+      "img": 4,
+      "em": [
+        "2주"
+      ],
+      "sfx": "tick"
+    },
+    {
+      "text": "여기서 전기차 차주가 말싸움 대신 안전신문고 앱을 켰음.",
+      "img": 5,
+      "em": [
+        "안전신문고"
+      ],
+      "sfx": "ding"
+    },
+    {
+      "text": "친환경자동차법. 충전구역에 일반 차를 세우면 과태료 10만 원임.",
+      "img": 6,
+      "em": [
+        "10만 원"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "전기차라도 충전 끝나고 완속은 14시간, 급속은 1시간 넘게 세워두면 똑같이 10만 원임.",
+      "img": 6,
+      "sfx": "pop"
+    },
+    {
+      "text": "앱에서 사진 두 장 찍어 올리면 촬영 시각이 자동으로 박혀서, 구청이 그걸로 과태료를 매김.",
+      "img": 7,
+      "sfx": "siren"
+    },
+    {
+      "text": "매일 밤 두 장씩 일주일 찍어 올렸더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "옆집 우편함에 과태료 고지서가 일곱 장 꽂혔음. 70만 원임.",
+      "img": 9,
+      "em": [
+        "70만 원"
+      ],
+      "em_color": "yellow",
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 5분이라니까요!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "5분이 아니라 사진 시각이 증거였던 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "충전구역 막히는 아파트 사는 친구한테 이거 보내주셈.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "wedding70",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148956738",
+  "title_line1": "\"예식장 사정이라 어쩔 수 없어요\"",
+  "title_line2": "결혼 20일 전 취소당한 부부",
+  "hook": "\"예식장 사정이라 어쩔 수 없어요\" 결혼 20일 전 취소당한 부부",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "결혼 20일 앞두고 예식장이 취소 통보"
+  },
+  "lines": [
+    {
+      "text": "예식장 사정이라 어쩔 수 없다며 결혼 20일 전에 취소당한 부부가 있었음.",
+      "img": 1
+    },
+    {
+      "text": "청첩장 300장 다 돌리고 신혼여행까지 끊어놨는데, 예식장에서 전화가 왔음.",
+      "img": 2,
+      "em": [
+        "300장"
+      ],
+      "sfx": "whoosh"
+    },
+    {
+      "text": "그날 더 큰 행사가 잡혀서요. 계약금은 돌려드릴게요!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "저희 사정이라 어쩔 수 없어요. 다른 데 알아보세요?!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "20일 남기고 새 예식장을 잡는 건 불가능에 가깝고, 하객들한테 다시 연락 돌릴 생각에 눈앞이 깜깜했음.",
+      "img": 4,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 신랑이 화내는 대신 공정위 자료를 찾아봤음.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "2025년 12월 18일부터 예식장 위약금 기준이 바뀌었음.",
+      "img": 6,
+      "em": [
+        "12월 18일"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "소비자가 취소하면 29일 전은 40%, 9일 전은 50%, 당일은 70%인데,",
+      "img": 7,
+      "sfx": "cash"
+    },
+    {
+      "text": "예식장 사정으로 취소하면 29일 전부터 총비용의 70%를 예식장이 물어야 함.",
+      "img": 7,
+      "em": [
+        "70%"
+      ],
+      "em_color": "yellow",
+      "sfx": "siren"
+    },
+    {
+      "text": "총비용 2천만 원짜리 계약이면 1,400만 원임.",
+      "img": 8,
+      "em": [
+        "1,400만 원"
+      ],
+      "sfx": "cash"
+    },
+    {
+      "text": "소비자원 접수하고 개정 기준을 첨부해서 내용증명을 보냈더니",
+      "img": 9,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "이틀 뒤 예식장에서 먼저 전화가 와서, 원래 날짜에 원래 홀로 식을 올리게 됐음.",
+      "img": 10,
+      "em": [
+        "원래 홀로"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 더 큰 행사가 있다니까요!!?",
+      "img": 11,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "더 큰 행사보다 1,400만 원이 더 컸던 거임.",
+      "img": 11,
+      "sfx": "boing"
+    },
+    {
+      "text": "결혼 준비하는 친구 있으면 이거 보내주셈. 12월 18일 기준임.",
+      "img": 12
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

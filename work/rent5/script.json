@@ -1,0 +1,120 @@
+{
+  "slug": "rent5",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://realestate.ehyun.co.kr/rental-increase-limit-response",
+  "title_line1": "\"월세 30% 올릴게요, 싫으면 나가세요\"",
+  "title_line2": "건물주가 조용해진 이유",
+  "hook": "\"월세 30% 올릴게요, 싫으면 나가세요\" 건물주가 조용해진 이유",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "장사 잘되니까 월세 200에서 260으로"
+  },
+  "lines": [
+    {
+      "text": "월세 30% 올릴 테니 싫으면 나가라던 건물주가 조용해진 이유가 있음.",
+      "img": 1
+    },
+    {
+      "text": "보증금 5천에 월세 200으로 2년 장사해서 자리 잡았는데, 재계약 앞두고 건물주가 찾아왔음.",
+      "img": 2,
+      "em": [
+        "월세 200"
+      ],
+      "sfx": "whoosh"
+    },
+    {
+      "text": "장사 잘되던데, 다음 달부터 260 받을게요!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "싫으면 나가세요. 들어올 사람 많아요?!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "인테리어에 4천 들였는데 2년 만에 나가면 그게 다 날아가는 거였음.",
+      "img": 4,
+      "em": [
+        "4천"
+      ],
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 이 사장은 계약서 대신 상가임대차보호법을 펼쳤음.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "11조. 임대료 인상은 한 번에 5%까지만 가능함. 200이면 210이 끝임.",
+      "img": 6,
+      "em": [
+        "5%"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "그리고 10조. 세입자가 갱신을 요구하면 건물주는 10년까지 거절할 수 없음.",
+      "img": 6,
+      "em": [
+        "10년"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "보증금 5천에 월세 200이면 환산보증금 2억 5천이라 서울 기준 9억 이하, 그대로 적용됨.",
+      "img": 7,
+      "sfx": "cash"
+    },
+    {
+      "text": "만기 한 달 전에 갱신 요구를 내용증명으로 보냈더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "건물주가 210으로 재계약서를 들고 왔음. 나가라던 말은 없었던 일이 됐음.",
+      "img": 9,
+      "em": [
+        "210"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 내 건물인데요!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "건물은 건물주 건데, 인상률은 법이 정하는 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "상가 세 얻어서 장사하는 친구한테 이거 보내주셈. 5%랑 10년임.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

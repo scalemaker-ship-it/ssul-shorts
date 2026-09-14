@@ -1,0 +1,120 @@
+{
+  "slug": "dogleash",
+  "type": "F형 (법조항 사이다) — 각색",
+  "source": "https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=87&onhunqueSeq=6152",
+  "title_line1": "\"우리 개는 안 물어요\"",
+  "title_line2": "목줄 풀고 다니던 견주의 결말",
+  "hook": "\"우리 개는 안 물어요\" 목줄 풀고 다니던 견주의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "공원에서 매일 목줄 풀어놓는 대형견"
+  },
+  "lines": [
+    {
+      "text": "우리 개는 안 문다며 목줄 풀고 다니던 견주가 있었음.",
+      "img": 1
+    },
+    {
+      "text": "아파트 공원에서 30kg짜리 대형견을 매일 저녁 목줄 없이 풀어놨음.",
+      "img": 2,
+      "em": [
+        "30kg"
+      ],
+      "sfx": "whoosh"
+    },
+    {
+      "text": "우리 애는 순해서 안 물어요! 왜 호들갑이세요?!",
+      "img": 3,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "무서우면 그쪽이 돌아가세요!",
+      "img": 3,
+      "sfx": "dudung",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "유모차 끌고 나온 엄마들이 개가 달려올 때마다 얼어붙었고, 놀이터가 비기 시작했음.",
+      "img": 4,
+      "sfx": "tick"
+    },
+    {
+      "text": "근데 한 아빠가 화내는 대신 영상을 찍어서 구청에 보냈음.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "동물보호법. 외출할 때 반려견은 2m 이내 목줄이나 가슴줄이 필수임.",
+      "img": 6,
+      "em": [
+        "2m"
+      ],
+      "em_color": "yellow",
+      "sfx": "pop"
+    },
+    {
+      "text": "안 하면 과태료 1차 20만 원, 2차 30만 원, 3차부터 50만 원임.",
+      "img": 6,
+      "em": [
+        "50만 원"
+      ],
+      "em_color": "yellow",
+      "sfx": "cash"
+    },
+    {
+      "text": "그리고 목줄 안 한 개가 사람을 다치게 하면 견주는 2년 이하 징역이나 2천만 원 이하 벌금임.",
+      "img": 7,
+      "em": [
+        "2년 이하 징역"
+      ],
+      "sfx": "siren"
+    },
+    {
+      "text": "영상 세 개가 사흘 간격으로 접수됐더니",
+      "img": 8,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "한 달 사이에 20만, 30만, 50만. 과태료 100만 원이 날아왔음.",
+      "img": 9,
+      "em": [
+        "100만 원"
+      ],
+      "sfx": "thud"
+    },
+    {
+      "text": "아니, 진짜 안 문다니까요!!?",
+      "img": 10,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "무는지 안 무는지가 아니라 줄이 있냐 없냐가 기준인 거임.",
+      "img": 10,
+      "sfx": "boing"
+    },
+    {
+      "text": "공원에 목줄 푼 개 때문에 못 나가는 친구한테 이거 보내주셈.",
+      "img": 11
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}
