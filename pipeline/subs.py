@@ -22,9 +22,41 @@ def _sticky(prev, w):
     return bool(_NUM_TAIL.search(prev)) and w.startswith(UNIT_HEAD)
 
 
+_END = re.compile(r"[.?!…]$")          # 문장 끝
+_CLAUSE = re.compile(r"[,]$")            # 절 끝(쉼표)
+
+
 def chunk(text, target=10):
-    """text 를 target 자 내외의 덩어리 리스트로."""
+    """text 를 target 자 내외의 덩어리 리스트로.
+
+    2026-09-15 사용자 지적: "생각보다 쉬운 구조였음 이 / 구조는 어떻게" 처럼 다음
+    문장의 첫 어절이 앞 덩어리에 딸려오면 안 된다. 문장 끝(. ? ! …)과 쉼표에서는
+    **무조건 끊고**, 그 경계를 넘어 합치지 않는다. 쉼표 앞 조각이 아주 짧으면
+    ("아니,") 뒤 문장에 붙인다.
+    """
     words = text.split()
+    segs, cur = [], []
+    for w in words:
+        cur.append(w)
+        if _END.search(w):
+            segs.append(cur); cur = []
+        elif _CLAUSE.search(w):
+            if sum(len(x) for x in cur) + len(cur) - 1 <= 4:
+                continue                    # "아니," 는 뒤에 붙인다
+            segs.append(cur); cur = []
+    if cur:
+        segs.append(cur)
+    if len(segs) > 1:
+        out = []
+        for sg in segs:
+            out.extend(_chunk_words(sg, target))
+        return out
+    return _chunk_words(words, target)
+
+
+def _chunk_words(words, target=10):
+    """어절 리스트 하나(문장 경계 없음)를 target 자 내외로."""
+    text = " ".join(words)
     if not words:
         return [text]
 
