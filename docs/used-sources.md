@@ -147,14 +147,14 @@ grep -c "<게시글ID>" docs/used-sources.md
 - gymrefund | https://blog.ehyun.co.kr/health-club-refund-guide | F형: 헬스장 이벤트가 환불불가 vs 소비자분쟁해결기준 10%(각색) | 2026-09-15 21:30 예약 https://youtube.com/shorts/k5rF4XR5wFI
 - deposit | https://realestate.ehyun.co.kr/wolse-deposit-refund-tenant-rights | F형: 보증금 미반환 → 임차권등기명령(각색) | 2026-09-15 22:00 예약 https://youtube.com/shorts/bVtOMYsyR5I
 
-# 2026-09-15 F형 10편 일괄 제작(미업로드) — 각색, 규정 하나씩
-- wedding70 | korea.kr 148956738 | 예식장 사정 취소 → 총비용 70% 배상(2025.12.18 개정)
-- noshow40 | korea.kr 148956738 | 단체 노쇼 → 사전고지 시 위약금 40%
-- refund7 | easylaw 835 | 온라인 쇼핑 세일상품 환불불가 → 전자상거래법 7일 청약철회·3영업일 환급
-- hagwon | easylaw 1140 | 학원 환불불가 서명 → 학원법 시행령 2/3·1/2·미개시 전액
-- carrepair | easylaw 675 | 동의 없는 정비 80만 → 자동차관리법 58조 견적서·임의정비 금지
-- rent5 | 이현 rental-increase-limit | 월세 30% 인상 → 상가임대차법 5% 상한·10년 갱신권
-- wagedelay | kbthink wage-arrears | 임금체불 "고소하든가" → 2025.10.23 3배 배상·지연이자 20%
-- evcharge | seosan.go.kr 9213 | 충전구역 알박기 → 친환경차법 과태료 10만·안전신문고
-- dogleash | easylaw 6152 | 목줄 미착용 → 동물보호법 2m·과태료 20/30/50만
-- parcel | easylaw 663 | 문앞 배송 분실 → 택배 표준약관 동의 없는 비대면은 택배사 책임·14일
+# 2026-09-15 F형 10편 일괄 제작(9/15 예약 완료) — 각색, 규정 하나씩
+- wedding70 | 2026-09-15 12:30 예약 https://youtube.com/shorts/5Khw6cSNP80 | korea.kr 148956738 | 예식장 사정 취소 → 총비용 70% 배상(2025.12.18 개정)
+- noshow40 | 2026-09-15 13:00 예약 https://youtube.com/shorts/LiYVOymdYNw | korea.kr 148956738 | 단체 노쇼 → 사전고지 시 위약금 40%
+- refund7 | 2026-09-16 12:00 예약 https://youtube.com/shorts/dlePZbTzFbk | easylaw 835 | 온라인 쇼핑 세일상품 환불불가 → 전자상거래법 7일 청약철회·3영업일 환급
+- hagwon | 2026-09-16 12:30 예약 https://youtube.com/shorts/nnRKcEiRxQ4 | easylaw 1140 | 학원 환불불가 서명 → 학원법 시행령 2/3·1/2·미개시 전액
+- carrepair | 2026-09-16 13:00 예약 https://youtube.com/shorts/k9UGrgc-AY4 | easylaw 675 | 동의 없는 정비 80만 → 자동차관리법 58조 견적서·임의정비 금지
+- rent5 | 2026-09-15 13:30 예약 https://youtube.com/shorts/vfoO3erwKGo | 이현 rental-increase-limit | 월세 30% 인상 → 상가임대차법 5% 상한·10년 갱신권
+- wagedelay | 2026-09-15 12:00 예약 https://youtube.com/shorts/opHPaeWCCBY | kbthink wage-arrears | 임금체불 "고소하든가" → 2025.10.23 3배 배상·지연이자 20%
+- evcharge | 2026-09-16 13:30 예약 https://youtube.com/shorts/G3DfvCpz3Wo | seosan.go.kr 9213 | 충전구역 알박기 → 친환경차법 과태료 10만·안전신문고
+- dogleash | 2026-09-16 14:00 예약 https://youtube.com/shorts/n2RFJw42GHo | easylaw 6152 | 목줄 미착용 → 동물보호법 2m·과태료 20/30/50만
+- parcel | 2026-09-15 14:00 예약 https://youtube.com/shorts/RQQy1CTkc-8 | easylaw 663 | 문앞 배송 분실 → 택배 표준약관 동의 없는 비대면은 택배사 책임·14일
