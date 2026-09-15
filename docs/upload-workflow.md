@@ -404,6 +404,9 @@ https://www.youtube.com/watch?v=<영상ID>
 | 2026-09-16 13:00 | `carrepair` | https://youtube.com/shorts/k9UGrgc-AY4 | 예약(Studio). F형 각색 |
 | 2026-09-16 13:30 | `evcharge` | https://youtube.com/shorts/G3DfvCpz3Wo | 예약(Studio). F형 각색 |
 | 2026-09-16 14:00 | `dogleash` | https://youtube.com/shorts/n2RFJw42GHo | 예약(Studio). F형 각색. 고정 댓글은 공개 후 |
+| 2026-09-15 22:30 | `gyeongbok` | https://youtube.com/shorts/x_xiLmL_te0 | 예약(Studio). **사이다·현장 1순위 첫 편**(경복궁 댕댕런·고궁박물관 공지). gpt 10장. 초안으로 빠졌다가 "초안 수정"으로 복구해 예약 |
+| 2026-09-15 23:00 | `drone` | https://youtube.com/shorts/yu7nJp5ZHjs | 예약(Studio). 추석 고속도로 AI 드론 단속(시의성 9/24~27). gpt 10장 |
+| 2026-09-15 23:30 | `ktxfee` | https://youtube.com/shorts/TFYHSYSpgvI | 예약(Studio). 명절 KTX 위약금 F형. gpt 10장 |
 
 > **2026-09-14 재업로드** — 위 5편(interlock·otcdrug·dropout·tjchart·nurseroom)은 사용자 지적(댓글 중계 문장 제거, 이미지 10장 이상)으로 초판 예약본을 Studio 에서 **완전삭제**하고 같은 슬롯에 다시 올렸다. 링크는 재업로드본 ID 로 교체함. 삭제는 콘텐츠 목록 체크박스 5개 선택 → 「추가 작업」 → 「완전삭제」 → 확인 체크박스 → 완전삭제 (일괄 삭제가 행별 ⋮ 보다 빠르다).
 
@@ -412,3 +415,5 @@ https://www.youtube.com/watch?v=<영상ID>
 > **2026-09-15 규칙 변경** — ① 자막은 문장 끝·쉼표에서 끊는다(`subs.py`, 이후 제작분부터) ② 대사 기본 감정 angry(§12) ③ 개구리 캐릭터 추가 생성 금지 ④ Studio 시간 드롭다운은 달력을 **Escape 로 닫은 뒤** `input[data-claude=time]` 셀렉터 클릭이 안정적 — 좌표 클릭은 달력 백드롭에 먹힌다.
 
 > **2026-09-15 슬롯 변경** — 매일 12:00·12:30·13:00·13:30·14:00 + 20:00·20:30·21:00·21:30·22:00 (하루 10편). 내일 날짜 예약은 달력 기본값이라 시간만 고르면 되고, 오늘 날짜는 달력에서 골라야 하며 **달력은 Escape 를 두 번(각각 따로) 눌러야 닫힌다.**
+
+> **2026-09-15 함정 추가** — 업로드 다이얼로그에서 달력이 이미 닫힌 상태로 Escape 를 한 번 더 누르면 **다이얼로그 자체가 닫혀 초안으로 빠진다.** Escape 는 `ytcp-date-picker` 가 보일 때 한 번만, 닫혔는지 스크린샷으로 확인 후 시간 선택. 초안으로 빠지면 Shorts 목록 행의 "초안 수정"으로 이어서 예약 가능.

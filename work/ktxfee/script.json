@@ -1,0 +1,108 @@
+{
+  "slug": "ktxfee",
+  "type": "사이다·현장 (2026-09-15 분석 1순위)",
+  "source": "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=23993",
+  "title_line1": "\"표 안 쓰면 그만이죠\"",
+  "title_line2": "명절 KTX 노쇼의 결말",
+  "hook": "\"표 안 쓰면 그만이죠\" 명절 KTX 노쇼족의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "추석 기차표 여러 장 잡고 버리는 사람들"
+  },
+  "lines": [
+    {
+      "text": "표 안 쓰면 그만이라던 명절 KTX 노쇼족이 있었음.",
+      "img": 1
+    },
+    {
+      "text": "추석 기차표는 9월 23일부터 27일까지가 명절 특별수송 기간임.",
+      "img": 2,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "예매 전쟁이라 일단 여러 장 잡아놓고, 안 타는 표는 그냥 버리는 사람들이 있음.",
+      "img": 3,
+      "em": [
+        "여러 장"
+      ],
+      "sfx": "tick"
+    },
+    {
+      "text": "취소하면 수수료 나오잖아요. 그냥 안 타면 되지?!",
+      "img": 4,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "근데 명절 기간은 위약금이 평소랑 다름.",
+      "img": 5,
+      "sfx": "ding"
+    },
+    {
+      "text": "출발 2일 전까지는 200원, 하루 전은 5%, 당일 출발 3시간 전까지는 10%.",
+      "img": 6,
+      "em": [
+        "200원"
+      ],
+      "em_color": "yellow",
+      "sfx": "cash"
+    },
+    {
+      "text": "출발 3시간 전부터 출발까지는 20%, 출발하고 나면 최대 70%까지 뗌.",
+      "img": 6,
+      "em": [
+        "70%"
+      ],
+      "em_color": "yellow",
+      "sfx": "dudung"
+    },
+    {
+      "text": "그러니까 안 타고 버리는 표는 환불이 거의 안 되고, 미리 취소한 사람은 200원에 끝남.",
+      "img": 7,
+      "sfx": "pop"
+    },
+    {
+      "text": "서울 부산 6만 원짜리 표면, 이틀 전 취소는 200원, 출발 뒤 반환은 4만 2천 원 가까이 날아감.",
+      "img": 8,
+      "em": [
+        "4만 2천 원"
+      ],
+      "sfx": "cash"
+    },
+    {
+      "text": "그 취소표는 새벽에 줍는 사람한테 가서 고향 가는 자리가 됨.",
+      "img": 9,
+      "sfx": "whoosh"
+    },
+    {
+      "text": "아니, 내 돈 주고 산 표인데요!!?",
+      "img": 4,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub1",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "내 돈 주고 산 표라서 70%가 내 돈에서 나가는 거임.",
+      "img": 9,
+      "sfx": "boing"
+    },
+    {
+      "text": "추석 기차표 여러 장 잡아둔 친구한테 이거 보내주셈. 이틀 전까지 200원임.",
+      "img": 10
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}

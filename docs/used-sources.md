@@ -158,3 +158,7 @@ grep -c "<게시글ID>" docs/used-sources.md
 - evcharge | 2026-09-16 13:30 예약 https://youtube.com/shorts/G3DfvCpz3Wo | seosan.go.kr 9213 | 충전구역 알박기 → 친환경차법 과태료 10만·안전신문고
 - dogleash | 2026-09-16 14:00 예약 https://youtube.com/shorts/n2RFJw42GHo | easylaw 6152 | 목줄 미착용 → 동물보호법 2m·과태료 20/30/50만
 - parcel | 2026-09-15 14:00 예약 https://youtube.com/shorts/RQQy1CTkc-8 | easylaw 663 | 문앞 배송 분실 → 택배 표준약관 동의 없는 비대면은 택배사 책임·14일
+
+- gyeongbok | https://www.fnnews.com/news/202609041444332074 | 사이다현장: 댕댕런 러닝크루 박물관 보관소 민폐 → 고궁박물관 공지 | 2026-09-15 22:30 예약 https://youtube.com/shorts/x_xiLmL_te0
+- drone | https://www.gokorea.kr/news/articleView.html?idxno=877330 | 사이다현장: 추석 고속도로 갓길 얌체차 AI 드론 단속 | 2026-09-15 23:00 예약 https://youtube.com/shorts/yu7nJp5ZHjs
+- ktxfee | 코레일 명절 특별수송 위약금 규정 | F형: 명절 KTX 노쇼 위약금 최대 70% | 2026-09-15 23:30 예약 https://youtube.com/shorts/TFYHSYSpgvI

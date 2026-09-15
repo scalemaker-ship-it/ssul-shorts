@@ -1,0 +1,107 @@
+{
+  "slug": "drone",
+  "type": "사이다·현장 (2026-09-15 분석 1순위)",
+  "source": "https://www.gokorea.kr/news/articleView.html?idxno=877330",
+  "title_line1": "\"갓길로 잠깐 빠질게요\"",
+  "title_line2": "추석 고속도로의 결말",
+  "hook": "\"갓길로 잠깐 빠질게요\" 추석 고속도로 얌체 운전자의 결말",
+  "channel": "썰푸는휴지",
+  "voice": "taesub",
+  "style": {
+    "sub_box": true,
+    "motion": true,
+    "bar": "통행료 무료 나흘, 갓길 얌체차를 하늘에서 잡음"
+  },
+  "lines": [
+    {
+      "text": "갓길로 잠깐 빠지겠다던 얌체 운전자들이 이번 추석엔 하늘에서 잡힘.",
+      "img": 1
+    },
+    {
+      "text": "9월 24일부터 27일까지 나흘간 고속도로 통행료가 무료임.",
+      "img": 2,
+      "em": [
+        "무료"
+      ],
+      "em_color": "yellow",
+      "sfx": "whoosh"
+    },
+    {
+      "text": "그만큼 차가 몰리고, 매년 나오는 게 갓길 주행이랑 버스전용차로 얌체차임.",
+      "img": 3,
+      "sfx": "tick"
+    },
+    {
+      "text": "어차피 카메라 없잖아요, 잠깐인데 뭐?!",
+      "img": 4,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "happy",
+      "intensity": 2.0
+    },
+    {
+      "text": "근데 올해는 한국도로공사랑 경찰이 순찰 드론을 수십 대 띄움.",
+      "img": 5,
+      "em": [
+        "순찰 드론"
+      ],
+      "em_color": "yellow",
+      "sfx": "ding"
+    },
+    {
+      "text": "30배 광학줌 4K 카메라에 AI가 달려서, 갓길 주행이랑 버스전용차로 위반, 비상등 없는 급정거를 자동으로 골라냄.",
+      "img": 6,
+      "sfx": "siren"
+    },
+    {
+      "text": "상공 30에서 50m에서 번호판까지 찍히고, 사고 현장엔 3분 안에 도착함.",
+      "img": 7,
+      "em": [
+        "3분"
+      ],
+      "sfx": "pop"
+    },
+    {
+      "text": "갓길 주행이랑 고속도로 버스전용차로 위반은 승용차 기준 범칙금 6만 원에 벌점 30점임.",
+      "img": 8,
+      "em": [
+        "벌점 30점"
+      ],
+      "em_color": "yellow",
+      "sfx": "cash"
+    },
+    {
+      "text": "벌점은 40점부터 면허정지라, 두 번 걸리면 면허가 날아감.",
+      "img": 8,
+      "em": [
+        "면허정지"
+      ],
+      "sfx": "dudung"
+    },
+    {
+      "text": "아니, 경찰차도 없었는데요!!?",
+      "img": 9,
+      "sfx": "eng",
+      "dialogue": true,
+      "voice": "sub2",
+      "emotion": "angry",
+      "intensity": 2.0
+    },
+    {
+      "text": "경찰차는 없었고, 드론이 위에 있었던 거임.",
+      "img": 9,
+      "sfx": "boing"
+    },
+    {
+      "text": "추석에 운전대 잡을 친구한테 이거 보내주셈. 하늘 조심.",
+      "img": 10
+    },
+    {
+      "text": "구독!",
+      "emotion": "toneup",
+      "intensity": 2.0,
+      "outro": true
+    }
+  ]
+}
