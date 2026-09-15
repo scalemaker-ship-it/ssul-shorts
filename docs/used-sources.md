@@ -162,3 +162,5 @@ grep -c "<게시글ID>" docs/used-sources.md
 - gyeongbok | https://www.fnnews.com/news/202609041444332074 | 사이다현장: 댕댕런 러닝크루 박물관 보관소 민폐 → 고궁박물관 공지 | 2026-09-15 22:30 예약 https://youtube.com/shorts/x_xiLmL_te0
 - drone | https://www.gokorea.kr/news/articleView.html?idxno=877330 | 사이다현장: 추석 고속도로 갓길 얌체차 AI 드론 단속 | 2026-09-15 23:00 예약 https://youtube.com/shorts/yu7nJp5ZHjs
 - ktxfee | 코레일 명절 특별수송 위약금 규정 | F형: 명절 KTX 노쇼 위약금 최대 70% | 2026-09-15 23:30 예약 https://youtube.com/shorts/TFYHSYSpgvI
+
+- revengedrive [란빵] | 형법 284조·도교법 시행규칙 별표28 | F형: 보복운전 급정거 3번 → 특수협박·벌점 100점 | 2026-09-16 제작, 미업로드 (란빵 12/20/21시 슬롯)

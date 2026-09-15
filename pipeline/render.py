@@ -288,13 +288,15 @@ def build_overlay(sc, sub_text, character=False, spans=None, em_color=None,
     # ── 워터마크 (반투명) ─────────────────────────────────
     # 기본은 이미지 안쪽 하단(WM_Y). 다만 sub_box 를 쓰면 자막 박스가 같은 자리에
     # 오므로 겹친다 — 그 경우 이미지 **상단**으로 올린다.
-    if L.WATERMARK:
+    # style.watermark 로 편별 override (빈 문자열 = 표기 없음 — 란빵 등 다른 계정용, 2026-09-16)
+    wm_text = (sc.get("style") or {}).get("watermark", L.WATERMARK)
+    if wm_text:
         wf = font(L.F_CH, L.WM_SIZE)
-        b = wf.getbbox(L.WATERMARK)
+        b = wf.getbbox(wm_text)
         wm_y = L.px(L.WM_Y)
         if (sc.get("style") or {}).get("sub_box"):
             wm_y = bar_bot + 18          # 흰 바가 있으면 그 밑으로 내려간다
-        d.text((cx - (b[2] - b[0]) / 2 - b[0], wm_y), L.WATERMARK,
+        d.text((cx - (b[2] - b[0]) / 2 - b[0], wm_y), wm_text,
                font=wf, fill=(255, 255, 255, L.WM_ALPHA),
                stroke_width=3, stroke_fill=(0, 0, 0, 120))
 
