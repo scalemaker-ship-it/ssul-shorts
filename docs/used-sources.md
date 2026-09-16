@@ -163,4 +163,6 @@ grep -c "<게시글ID>" docs/used-sources.md
 - drone | https://www.gokorea.kr/news/articleView.html?idxno=877330 | 사이다현장: 추석 고속도로 갓길 얌체차 AI 드론 단속 | 2026-09-15 23:00 예약 https://youtube.com/shorts/yu7nJp5ZHjs
 - ktxfee | 코레일 명절 특별수송 위약금 규정 | F형: 명절 KTX 노쇼 위약금 최대 70% | 2026-09-15 23:30 예약 https://youtube.com/shorts/TFYHSYSpgvI
 
-- revengedrive [란빵] | 형법 284조·도교법 시행규칙 별표28 | F형: 보복운전 급정거 3번 → 특수협박·벌점 100점 | 2026-09-16 제작, 미업로드 (란빵 12/20/21시 슬롯)
+- revengedrive [란빵] | 형법 284조·도교법 시행규칙 별표28 | F형: 보복운전 급정거 3번 → 특수협박·벌점 100점 | 2026-09-16 20:00 예약 https://youtube.com/shorts/pkxtG-uHHFU (란빵)
+- whiplash4w [란빵] | 자동차보험 표준약관 2023 경상환자 대책 | F형: 시속 10km 추돌 내년까지 눕겠다 → 4주 진단서·과실 부담 | 2026-09-16 21:00 예약 https://youtube.com/shorts/_BTGeXgSyi4 (란빵)
+- doording [란빵] | 도로교통법 54조·156조 10호 | F형: 마트 문콕 도주 → 범칙금 12만·벌점 25 | 2026-09-17 12:00 예약 예정

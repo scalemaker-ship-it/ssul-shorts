@@ -59,7 +59,22 @@ F형(법조항 사이다)·E형(찬반 저울)·D형(뉴스 반전)을 그대로
 
 중복 대조는 `ssul/docs/used-sources.md` 를 같이 쓴다(계정이 달라도 같은 소재 두 번 안 만든다).
 
+## 4-2. 업로드 절차 (Studio, 2026-09-16 실측)
+
+브라우저 = chrome-mcp-stdio. **란빵은 ingseuling@gmail.com 계정의 브랜드 채널**(관리자)이라
+`youtube.com/account` 에서 채널 전환하면 된다. `authuser=1`(thestudy9193) 은 권한 없음.
+업로드 URL: `https://studio.youtube.com/channel/UCxQK4IBAJ1t-dPImmMinCng/videos/upload?d=ud&authuser=0`
+(`ssul/docs/upload-workflow.md` 의 제목·설명·아동용·예약 절차 그대로 + 아래 두 가지)
+
+- **광고 적합성** 단계가 끼어 있다: `해당 사항 없음` 체크 → `평가 제출` → 다음
+- **쇼핑태그는 업로드 흐름 안 "동영상 요소" 단계의 `제품 태그하기 › 추가`** 에서 붙인다.
+  검색창(`#search-input`) 좌표 클릭 → 타이핑 → Enter. 검색이 퍼지라서(블랙박스 → 초콜릿박스)
+  결과 텍스트로 골라 **`ytcp-icon-button`(+) 을 좌표 클릭**해야 붙는다(JS `.click()` 은 무시됨).
+  보이는 요소만 잡을 것(숨은 중복 리스트가 있음). `태그된 제품 N개` 로 확인 후 `완료`.
+- 예약 시각은 **날짜 먼저, 시간 나중**(순서 바꾸면 "미래의 시간을 선택하세요" 오류). 12:00 슬롯이 지났으면 그날은 20·21시만.
+
 ## 5. 기록
 
 - 2026-09-15: 프로젝트 신설. 란빵 계정 = 자동차 썰 전용으로 확정.
+- 2026-09-16: 1편 revengedrive 20:00 (pkxtG-uHHFU), 2편 whiplash4w 21:00 (_BTGeXgSyi4) 예약, 3편 doording 9/17 12:00 예정. codex 한도 소진(9/19 17시 리셋)이라 3편 이미지는 로컬 SDXL.
 - 2026-09-16: 발행 12/20/21시 3편·쇼핑태그 규칙 확정. 1편 `revengedrive`(보복운전 급정거 3번 → 특수협박·벌점 100점) 제작. 작업 폴더는 `ssul/work/<slug>` 에 두고 `ranbbang/work/<slug>` 심볼릭 링크(파이프라인 경로가 `ssul/work` 고정).
