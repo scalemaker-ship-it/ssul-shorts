@@ -166,3 +166,10 @@ grep -c "<게시글ID>" docs/used-sources.md
 - revengedrive [란빵] | 형법 284조·도교법 시행규칙 별표28 | F형: 보복운전 급정거 3번 → 특수협박·벌점 100점 | 2026-09-16 20:00 예약 https://youtube.com/shorts/pkxtG-uHHFU (란빵)
 - whiplash4w [란빵] | 자동차보험 표준약관 2023 경상환자 대책 | F형: 시속 10km 추돌 내년까지 눕겠다 → 4주 진단서·과실 부담 | 2026-09-16 21:00 예약 https://youtube.com/shorts/_BTGeXgSyi4 (란빵)
 - doording [란빵] | 도로교통법 54조·156조 10호 | F형: 마트 문콕 도주 → 범칙금 12만·벌점 25 | 2026-09-17 12:00 예약 예정
+
+# 2026-09-17 개드립 3편 + F형 법조항 2편 (이미지: codex 한도 소진 → 힉스필드 z_image 폴백)
+- toiletpay | https://www.dogdrip.net/dogdrip/724988052 | 변기 수리비 떠넘기기 → 민법 320조 유치권 | 2026-09-17 07:00 예약 https://youtube.com/shorts/ytCh97ngdyI
+- tuna155 | https://www.dogdrip.net/dogdrip/725033917 | 참치회 200g→155g → 표시광고법 기만적 표시(찬반) | 2026-09-17 13:00 예약 https://youtube.com/shorts/sf4PmYNtQF8
+- jangjeonse | https://www.dogdrip.net/dogdrip/725013954 (원본 KBS 뉴스9) | E형: 서울 장기전세 20년 만기, 5년간 9,500여 가구·월 148만 원(찬반) | 2026-09-17 20:00 예약 https://youtube.com/shorts/wyijJ_M3Yio
+- reviewgong | 형법 350조 공갈 + 정보통신망법 70조 | F형: "서비스 안 주면 별점 1개"(각색) | 2026-09-18 07:00 예약 https://youtube.com/shorts/_YOrIKtq830
+- wallpaper | 민법 623·654조 원상회복, 통상손모 판례 | F형: 도배·장판 180만 원 공제(각색) | 2026-09-18 13:00 예약 https://youtube.com/shorts/I-k4wchuui4
