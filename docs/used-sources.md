@@ -205,3 +205,11 @@ grep -c "<게시글ID>" docs/used-sources.md
 - hagwon18 | 학원법 시행령 18조·별표4 | F형: 3개월 선납 2주 만에 중단 → 80만 반환·5일 이내(각색) | 2026-09-22 07:00 예약 https://youtube.com/shorts/kvTfWAH9bNI
 - namu240 | 민법 240조 수지·목근의 제거권 | F형: 옆집 감나무 가지, 제거 청구 → 불응 시 직접 제거(각색) | 2026-09-22 13:00 예약 https://youtube.com/shorts/VkpguSF4gtU
 ※ 고정 댓글 5건은 공개 후(9/21 07시~) 별도로 달아야 함 — 예약 상태에서는 댓글 등록 불가
+
+# 2026-09-20 개드립 이슈 5편 (이미지: 힉스필드 z_image 64장 · codex 한도 소진 · Studio 수동 업로드)
+- busanshark | https://www.dogdrip.net/dogdrip/725639579 (댓글 99) | D형: 북항 친수공원 3.5m 무태상어, 1,500명 구경 → 대형 상어류 작년의 3.8배·기후변화 | **초반 3컷은 원글 현장 영상 캡처**(워터마크·얼굴 없음 확인) | 2026-09-21 12:00 예약 https://youtube.com/shorts/OYhJE5FVze8
+- buspass | https://www.dogdrip.net/dogdrip/725632971 (댓글 239, 오늘 최다) | E형 찬반: 불꽃축제 막차 입석 태워준 60대 기사 → 승객 신고·과태료·국민신문고 추가신고 | 2026-09-21 12:30 예약 https://youtube.com/shorts/eZpsnozY4Z0
+- gimbap | https://www.dogdrip.net/dogdrip/725653314 (댓글 146) | D형: 서울 김밥 3,838원·5년새 40.5%, 외식 8품목 상승률 1위 → 범인은 대체 불가한 김 | 2026-09-21 13:30 예약 https://youtube.com/shorts/0fQcQwuVkzI
+- robotaxi | https://www.dogdrip.net/dogdrip/725651639 (댓글 92) | E형 찬반: 서울 자율주행택시 누적 1.5만·11월 레벨4 → 영업면허냐 데이터냐 | 2026-09-21 14:00 예약 https://youtube.com/shorts/idvVPbCnJ1w
+- tucson [란빵] | https://www.dogdrip.net/dogdrip/725625870 (댓글 134) | E형 찬반: 신형 투싼 후면 방향지시등이 최하단으로 밀림, XRT 특히 논란 | 2026-09-21 14:30 예약 https://youtube.com/shorts/yW0eYbAzEzE (란빵, 광고적합성 자가진단 '해당 사항 없음' 제출)
+※ 고정 댓글 5건은 공개 후(9/21 12시~) 별도로 달아야 함
