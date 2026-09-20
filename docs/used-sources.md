@@ -197,3 +197,11 @@ grep -c "<게시글ID>" docs/used-sources.md
 - parkinglot17 | 주차장법 17조 3항 + 면책약관 무효 법리 | F형: 유료주차장 파손 면책 안내문(각색) | 2026-09-19 21:30 예약 https://youtube.com/shorts/QAh8GDLSdjQ
 - medrecord21 | 의료법 21조·90조 | F형: 진료기록 사본 거부 → 500만원 이하 벌금(각색) | 2026-09-19 22:00 예약 https://youtube.com/shorts/WWG2t6CBrIk
 ※ 고정 댓글 5건은 공개 후(9/19 20시~) 별도로 달아야 함 — 예약 상태에서는 댓글 등록 불가
+
+# 2026-09-20 F형 법조항 5편 (이미지: codex 27장 + 로컬 SDXL 27장 + 힉스필드 z_image 11장 · Zernio 연결 끊겨 Studio 수동 업로드)
+- kwonrigeum | 상가건물 임대차보호법 10조의4 | F형: 권리금 회수 방해, 현저히 고액 차임 요구·3년 시효(각색) | 2026-09-21 07:00 예약 https://youtube.com/shorts/Jo1Ugd1HYL8
+- child755 | 민법 753조·755조 + 대법원 93다13605 | F형: 식당 뚝배기 화상, 감독의무자 책임·13~14세 기준(각색) | 2026-09-21 13:00 예약 https://youtube.com/shorts/95Y30s7vsxo
+- honyu | 민법 756조 + 혼유사고 과실 30% 판결 | F형: 경유차 휘발유 380만, 주유소 70%·영업배상책임보험(각색) | 2026-09-21 20:00 예약 https://youtube.com/shorts/9vlvb4rtzsM
+- hagwon18 | 학원법 시행령 18조·별표4 | F형: 3개월 선납 2주 만에 중단 → 80만 반환·5일 이내(각색) | 2026-09-22 07:00 예약 https://youtube.com/shorts/kvTfWAH9bNI
+- namu240 | 민법 240조 수지·목근의 제거권 | F형: 옆집 감나무 가지, 제거 청구 → 불응 시 직접 제거(각색) | 2026-09-22 13:00 예약 https://youtube.com/shorts/VkpguSF4gtU
+※ 고정 댓글 5건은 공개 후(9/21 07시~) 별도로 달아야 함 — 예약 상태에서는 댓글 등록 불가
