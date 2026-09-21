@@ -20,7 +20,8 @@ MODEL = os.environ.get(
 )
 # SDXL 친화 landscape 해상도(생성) → 최종 크롭 목표
 # 16GB MPS 메모리 압박 완화 위해 축소(1024x640, 1.6:1)
-GEN_W, GEN_H = 1024, 640
+GEN_W = int(os.environ.get("SDXL_GEN_W", 1024))
+GEN_H = int(os.environ.get("SDXL_GEN_H", 640))
 OUT_W, OUT_H = 1280, 800
 
 NEG = ("text, letters, words, watermark, logo, signature, caption, subtitle, "

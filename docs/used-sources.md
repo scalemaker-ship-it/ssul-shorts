@@ -213,3 +213,39 @@ grep -c "<게시글ID>" docs/used-sources.md
 - robotaxi | https://www.dogdrip.net/dogdrip/725651639 (댓글 92) | E형 찬반: 서울 자율주행택시 누적 1.5만·11월 레벨4 → 영업면허냐 데이터냐 | 2026-09-21 14:00 예약 https://youtube.com/shorts/idvVPbCnJ1w
 - tucson [란빵] | https://www.dogdrip.net/dogdrip/725625870 (댓글 134) | E형 찬반: 신형 투싼 후면 방향지시등이 최하단으로 밀림, XRT 특히 논란 | 2026-09-21 14:30 예약 https://youtube.com/shorts/yW0eYbAzEzE (란빵, 광고적합성 자가진단 '해당 사항 없음' 제출)
 ※ 고정 댓글 5건은 공개 후(9/21 12시~) 별도로 달아야 함
+
+# 2026-09-21~22 란빵 자동차 F형 10편 (9/22 예약) + 신규 5편(9/23 예약) + tucson 재구성
+- plateblock [란빵] | 자동차관리법 등록번호판 가림 | 고의 1년 이하 징역/1천만, 과태료 50→250만 | 2026-09-22 07:00 예약
+- childseat6 [란빵] | 도로교통법 50조 | 6세 미만 카시트, 과태료 6만, 중상확률 5% vs 98% | 2026-09-22 09:00 예약
+- phonedrive [란빵] | 도로교통법 49조 | 운전중 휴대폰 6만·벌점 15, 신호대기도 포함 | 2026-09-22 11:00 예약
+- tint70 [란빵] | 가시광선 투과율 전면 70/측면 40 | 과태료 2만 | 2026-09-22 13:00 예약
+- muffler34 [란빵] | 자동차관리법 34조 | 무승인 튜닝 1년 이하/1천만, 105dB | 2026-09-22 15:00 예약
+- insurance0 [란빵] | 자동차손배법 | 의무보험 미가입 과태료 300만 이하, 운행 시 1천만 벌금 | 2026-09-22 17:00 예약
+- cargodrop [란빵] | 도로교통법 39조 | 적재물 추락 5만·벌점 15, 12대 중과실 | 2026-09-22 19:00 예약
+- breathrefuse [란빵] | 도로교통법 148조의2 | 음주측정 거부 1년 이상 5년 이하 | 2026-09-22 20:00 예약
+- firelane [란빵] | 소방기본법 21조의2 | 소방차 전용구역 1차 50만·2차 100만 | 2026-09-22 21:00 예약
+- platetransfer [란빵] | 자동차관리법 이전등록 | 15일·최대 50만, 양도인 대행 | 2026-09-22 22:00 예약
+
+# 2026-09-23 예약분 (신규 5편, 20:00~22:00 30분 간격)
+- tucson(재구성) [란빵] | 신형 투싼 후면 방향지시등 | **현대차 뉴스룸 실사 12장 + 구형 NX4 CC BY-SA 1장, 출처 번인** | 2026-09-23 20:00 예약 https://youtube.com/shorts/uQuOxoRoZH8
+- dashcamleak [란빵] | 블박 영상 유포 — 개인정보·초상권·명예훼손 | 2026-09-23 20:30 예약 https://youtube.com/shorts/T1U-tx1kjAs
+- abandoncar [란빵] | 자동차관리법 26조 무단방치 범칙금 100~150만, 견인·폐차·직권말소 | 2026-09-23 21:00 예약 https://youtube.com/shorts/KmkvYmPI_UY
+- buslane [란빵] | 전용차로 통행 위반 6만·벌점 30, 9인승/6명 조건 | **서울 버스전용차로 CC BY-SA 실사 3장(hyolee2·최광모)** | 2026-09-23 21:30 예약 https://youtube.com/shorts/S6weSGwTqak
+- emergencyway [란빵] | 도로교통법 29조 긴급차 양보, 20만 이하 과태료·영상기록 부과 | **119구급차 CC0 실사 2장(Choi Kwang-mo)** | 2026-09-23 22:00 예약 https://youtube.com/shorts/hzrX3E6UOAo
+- schoolbus [란빵] | 도로교통법 51조 통학버스 특별보호 9만·벌점 30, 옆 차로도 일시정지 | **한국 어린이통학버스 CC BY-SA 실사 5장(hyolee2)** | 2026-09-24 20:00 예약 https://youtube.com/shorts/zaDHqkN-MQw
+  ※ 통학버스 사진은 Commons `Category:School buses in South Korea` 에서 찾았다 — 일반 검색어로는 안 나오고 **카테고리를 직접 열어야** 나온다(남해·완도 교육청 통학버스 등, 전부 hyolee2 촬영)
+  ※ 기존 AI 이미지 버전 https://youtube.com/shorts/yW0eYbAzEzE 는 공개 상태 — 비공개 전환 여부 사용자 확인 대기
+
+# 2026-09-22 개드립 핫이슈 10편 (이미지: 로컬 SDXL --fast 768x480, 편당 10장 · 힉스필드 사용 금지 지시 · codex 9/24까지 한도)
+- simsubong | https://www.dogdrip.net/dogdrip/725779554 (댓글 280) | D형: 진안 트로트페스티벌 심수봉→17세 김다현 공개 비판, 다음날 "100% 제 잘못" 사과 | 2026-09-22 07:00 예약 https://youtube.com/shorts/8J-PmUei_HA
+- mukbang | https://www.dogdrip.net/dogdrip/725780350 (댓글 158) | D형: 유튜브 9월 광고정책 상향, 영상 667개 중 339개 삭제·쯔양/히밥 영향권 | 2026-09-22 09:00 예약 https://youtube.com/shorts/02aQtYMbxww
+- pixie | https://www.dogdrip.net/dogdrip/725745514 (댓글 206) | F형: 브레이크 없는 픽시 과태료 50만·개조 6개월 징역/500만·제동거리 13.5배 | 2026-09-22 12:00 예약 https://youtube.com/shorts/iCdLByltPqQ
+- sabok | https://www.dogdrip.net/dogdrip/725805610 (댓글 100) | F형: 특수학교 교사 지시로 학생 이동→제3자 고발 아동학대 입건, 교육청·병무청 책임 떠넘김 | 2026-09-23 07:00 예약 https://youtube.com/shorts/DYlAESWj-3s
+- sanggwan | https://www.dogdrip.net/dogdrip/725839634 (댓글 129) | F형: 군형법 상관모욕죄, 대구지법 징역 2개월 선고유예 | 2026-09-23 09:00 예약 https://youtube.com/shorts/aV4_9Ot_ces
+- salary | https://www.dogdrip.net/dogdrip/725792913 (댓글 142) | D형: 희망연봉 선제시 거부→회사가 5,000~5,500 제시, 최종 5,300(먼저 말 안 해 800만 차이) | 2026-09-23 12:00 예약 https://youtube.com/shorts/zcGVfYVgLS8
+- byeongsal | https://www.dogdrip.net/dogdrip/725824427 (댓글 101) | D형 반전: 전역금 2,800만설 → 실제 최대 2,058만(병장 150만+매칭 55만 전액적금 기준) | 2026-09-23 13:00 예약 https://youtube.com/shorts/1D5LTNWvOrA
+- hanbok | https://www.dogdrip.net/dogdrip/725746690 (댓글 120) | E형: 한글축제 시민모델 오디션서 "한복은 패션 소스 아니다" 면박, 랩스커트·원피스는 무지적 | 2026-09-23 18:00 예약 https://youtube.com/shorts/sEEIDQ2tiko
+- noshow | https://www.dogdrip.net/dogdrip/725791285 (댓글 85) | E형: 제왕절개 당일 노쇼 → 수술방·집도의·마취·신생아 준비가 통째로 빔(각색) | 2026-09-23 20:00 예약 https://youtube.com/shorts/6d1uphWaUnA
+- gunbok | https://www.dogdrip.net/dogdrip/725753225 (댓글 203) | F형: 군복단속법 9조·13조, 전역자 예외는 예복·정복까지(전투복 제외). 5·18 평가는 다루지 않음 | 2026-09-23 21:00 예약 https://youtube.com/shorts/Iwh73yAsLpM
+※ 제외: 박위 편(방송 캡처 + 장애인 조롱 여론이라 채널 리스크), 배그 사태 전편, 무슬림·젠더 소재
+※ 고정 댓글 10건은 공개 후 별도로 달아야 함

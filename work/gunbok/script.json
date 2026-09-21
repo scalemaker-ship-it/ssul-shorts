@@ -1,0 +1,28 @@
+{
+  "slug": "gunbok",
+  "type": "F형 (법조항) — 민간인의 현용 전투복 착용",
+  "source": "https://www.dogdrip.net/dogdrip/725753225 ; 군복 및 군용장구의 단속에 관한 법률 제9조·제13조",
+  "title_line1": "민간인이 입은",
+  "title_line2": "현용 전투복",
+  "hook": "현충원에서 본 현용 전투복, 저거 입어도 되는 거임?",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "현충원 방문했다가 뒷목 잡았던 썰.jpg", "bar_count": 203 },
+  "lines": [
+    { "text": "현충원에 갔다가 현용 전투복을 입은 사람들을 봤다는 글이 올라왔음.", "img": 1 },
+    { "text": "가까이 가서 보니까 현역 군인이 아니었음.", "img": 2, "sfx": "tick" },
+    { "text": "전역자들이 만든 민간 단체 사람들이었음.", "img": 3, "sfx": "dudung" },
+    { "text": "그래서 궁금해지는 게 이거임. 민간인이 현용 군복 입어도 되는 거임?", "img": 4, "dialogue": true, "emotion": "toneup", "intensity": 2.0 },
+    { "text": "이건 따로 법이 있음.", "img": 5, "sfx": "ding" },
+    { "text": "군복 및 군용장구의 단속에 관한 법률 9조임.", "img": 6, "em": ["군복 단속법 9조"] },
+    { "text": "군인이 아닌 사람은 군복을 착용하면 안 되고", "img": 7 },
+    { "text": "비슷하게 생긴 옷으로 군인과 구별이 어렵게 만들어도 안 된다고 돼 있음.", "img": 8, "em": ["구별이 어렵게"], "em_color": "yellow", "sfx": "thud" },
+    { "text": "그럼 예비군 훈련 때 입는 건 뭐임?!", "img": 9, "dialogue": true, "voice": "sub2", "emotion": "angry", "intensity": 2.0 },
+    { "text": "그건 예외로 적혀 있음. 동원되거나 교육훈련으로 소집됐을 때는 입을 수 있음.", "img": 10 },
+    { "text": "전역한 사람도 예외가 있는데 여기가 핵심임.", "img": 11, "sfx": "ding" },
+    { "text": "전역 당시 계급의 예복이나 정복까지임. 전투복은 그 예외에 안 들어감.", "img": 12, "em": ["예복이나 정복까지"], "sfx": "boing" },
+    { "text": "행사 취지가 뭐였든 옷은 법이 정한 선이 따로 있는 거임.", "img": 13 },
+    { "text": "예비역인 친구 있으면 이거 보내주셈.", "img": 13 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}

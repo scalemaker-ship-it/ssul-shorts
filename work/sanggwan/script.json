@@ -1,0 +1,28 @@
+{
+  "slug": "sanggwan",
+  "type": "F형 (법조항 사이다) — 군형법 상관모욕죄",
+  "source": "https://www.dogdrip.net/dogdrip/725839634 ; 대구지법 선고(서울신문·헤럴드경제 2026-09-21 보도)",
+  "title_line1": "상관한테 욕한 병사",
+  "title_line2": "판결",
+  "hook": "\"적당히 해라\" 군 상관에 욕설한 20대 선고유예",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "\"적당히 해라 미친녀아\" 군 상관에 욕설한 20대 선고유예", "bar_count": 129 },
+  "lines": [
+    { "text": "부대 행정반에서 20대 병사가 상관한테 소리를 질렀음.", "img": 1 },
+    { "text": "적당히 좀 해라, 미친 거 아니냐.", "img": 2, "dialogue": true, "voice": "sub2", "emotion": "angry", "intensity": 2.0, "sfx": "dudung" },
+    { "text": "다른 병사들이 다 보는 앞이었음.", "img": 3, "sfx": "eng" },
+    { "text": "상대는 당시 33살 여성 상관이었고, 지적을 받은 게 기분 나빠서 그랬다고 함.", "img": 4 },
+    { "text": "여기서 핵심은 누가 더 잘못했냐가 아님.", "img": 5, "sfx": "ding" },
+    { "text": "군형법에는 상관모욕죄가 따로 있음.", "img": 6, "em": ["상관모욕죄"] },
+    { "text": "밖에서 하는 모욕이랑 다르게 취급되는 이유는 군 기강 때문임.", "img": 7 },
+    { "text": "법원은 이 행위가 군의 질서를 해쳐서 죄가 가볍지 않다고 했음.", "img": 8, "sfx": "thud" },
+    { "text": "그럼 감옥 가는 거임?!", "img": 9, "dialogue": true, "emotion": "angry", "intensity": 2.0 },
+    { "text": "그건 아니었음. 대구지법은 징역 2개월에 선고유예를 내렸음.", "img": 10, "em": ["선고유예"], "em_color": "yellow" },
+    { "text": "선고유예는 유죄는 맞는데 형을 선고하는 걸 미뤄두는 제도임.", "img": 11 },
+    { "text": "2년을 사고 없이 넘기면 없던 일이 됨.", "img": 12, "sfx": "boing" },
+    { "text": "한마디 참았으면 재판정에 설 일도 없었던 거임.", "img": 13 },
+    { "text": "군대 간 아들 있는 친구 있으면 이거 보내주셈.", "img": 13 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}

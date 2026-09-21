@@ -1,0 +1,28 @@
+{
+  "slug": "simsubong",
+  "type": "D형 (반전) — 심수봉 무대 발언과 하루 만의 사과",
+  "source": "https://www.dogdrip.net/dogdrip/725779554 ; 경향신문·스타뉴스·서울경제 2026-09-21 보도",
+  "title_line1": "무대에서 후배를",
+  "title_line2": "공개 저격",
+  "hook": "심수봉, 김다현 공개 비판 논란",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "심수봉, 김다현 공개 비판…\"저 아가씨 내보내지말라\"", "bar_count": 280 },
+  "lines": [
+    { "text": "트로트 축제 무대에서 선배 가수가 후배를 공개적으로 깠음.", "img": 1 },
+    { "text": "전북 진안에서 열린 축제였고 앞 순서가 17살 가수였음.", "img": 2, "em": ["17살"], "em_color": "yellow" },
+    { "text": "바로 다음 무대에 오른 71살 심수봉이 노래 두 곡을 부른 뒤에 말을 꺼냈음.", "img": 3, "sfx": "tick" },
+    { "text": "저 앞에 노래 부른 여자 때문에 제 머리가 어지럽다.", "img": 4, "dialogue": true, "emotion": "angry", "intensity": 2.0, "sfx": "dudung" },
+    { "text": "노래가 뭔지 삶이 뭔지도 모르는 아가씨 같다.", "img": 5, "dialogue": true, "emotion": "angry", "intensity": 2.0 },
+    { "text": "거기서 끝이 아니고 무대 뒤를 향해 이렇게 말했음.", "img": 6 },
+    { "text": "저 선수는 앞으로 내보내지 말아달라.", "img": 7, "dialogue": true, "emotion": "angry", "intensity": 2.0, "sfx": "thud" },
+    { "text": "축제를 보러 온 사람들 앞에서 그대로 나간 말이었음.", "img": 8, "sfx": "eng" },
+    { "text": "영상이 퍼지면서 하루 만에 난리가 났고", "img": 9 },
+    { "text": "다음 날 심수봉이 입장을 냈음.", "img": 10, "sfx": "ding" },
+    { "text": "말 그대로 실언이었고 100퍼센트 제 잘못이라고 했음.", "img": 11, "em": ["100퍼센트 제 잘못"] },
+    { "text": "앞 순서 가수가 누군지 몰랐고 망신 주려던 건 아니었다고 덧붙였음.", "img": 12 },
+    { "text": "소속사는 김다현 아버지한테 전화해서 사과했다고 밝혔음.", "img": 13, "sfx": "boing" },
+    { "text": "님들은 이 사과로 정리됐다고 봄, 아니면 아직 남았다고 봄?", "img": 13 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}

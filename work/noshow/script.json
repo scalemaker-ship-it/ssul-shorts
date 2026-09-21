@@ -1,0 +1,27 @@
+{
+  "slug": "noshow",
+  "type": "E형 (찬반 저울) — 수술 노쇼",
+  "source": "https://www.dogdrip.net/dogdrip/725791285 (산부인과 종사자 SNS 글 캡처, 각색)",
+  "title_line1": "제왕절개 수술을",
+  "title_line2": "노쇼함",
+  "hook": "제왕절개 수술 노쇼해버린 산모",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "제왕절개 수술 노쇼해버렸다는 산모...jpg", "bar_count": 85 },
+  "lines": [
+    { "text": "아침 일찍 제왕절개 수술이 잡혀 있던 산모가 병원에 안 나타났음.", "img": 1, "em": ["안 나타났음"], "em_color": "yellow" },
+    { "text": "사고가 난 것도 아니고 몸이 나빠진 것도 아니었음.", "img": 2, "sfx": "tick" },
+    { "text": "전날 남편이랑 싸웠고 오늘은 수술할 마음이 아니라는 거였음.", "img": 3, "sfx": "dudung" },
+    { "text": "수술 하나가 비는 게 뭐 그리 큰일이냐 싶은데", "img": 4, "dialogue": true, "emotion": "toneup", "intensity": 2.0 },
+    { "text": "수술방은 그날 그 시간에 그 사람 한 명을 위해 통째로 잡아두는 거임.", "img": 5, "sfx": "ding" },
+    { "text": "집도의, 마취과, 간호 인력, 신생아 받을 준비까지 같이 묶여 있음.", "img": 6 },
+    { "text": "그게 한 번에 비면 다른 산모를 그 자리에 못 넣음.", "img": 7, "em": ["다른 산모를 못 넣음"], "sfx": "thud" },
+    { "text": "예약이 밀려 있는 병원일수록 타격이 큼.", "img": 8 },
+    { "text": "그리고 산모는 나중에 마음을 돌려서 병원에 왔음.", "img": 9, "sfx": "eng" },
+    { "text": "근데 그때는 이미 그날도 다음 날도 수술 일정이 다 차 있었음.", "img": 10 },
+    { "text": "결국 다시 날짜를 잡고 돌아가야 했음.", "img": 11, "sfx": "boing" },
+    { "text": "노쇼로 손해를 본 건 병원만이 아니라 본인도였던 거임.", "img": 12 },
+    { "text": "님들은 이런 노쇼에 병원이 위약금을 물려도 된다고 봄?", "img": 12 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "pixie",
+  "type": "F형 (법조항 사이다) — 브레이크 없는 픽시 자전거",
+  "source": "https://www.dogdrip.net/dogdrip/725745514 ; 행정안전부 보도자료 ; 도로교통법·자전거 안전요건 보도(2026-06)",
+  "title_line1": "중2한테 사준",
+  "title_line2": "브레이크 없는 자전거",
+  "hook": "중2 아들에게 픽시자전거 사준 부모",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "중2 아들에게 픽시자전거 사준 부모", "bar_count": 206 },
+  "lines": [
+    { "text": "중학교 2학년한테 브레이크 없는 자전거를 사준 부모가 있음.", "img": 1, "em": ["브레이크 없는"], "em_color": "yellow" },
+    { "text": "픽시라고 부르는 건데 페달을 거꾸로 밟아서 속도를 줄이는 자전거임.", "img": 2 },
+    { "text": "타는 사람들은 이게 멋이라고 함.", "img": 3, "dialogue": true, "emotion": "toneup", "intensity": 2.0 },
+    { "text": "근데 이건 멋이냐 아니냐 문제가 아님.", "img": 4, "sfx": "ding" },
+    { "text": "법은 자전거를 제동장치가 있는 것으로 정해놨음.", "img": 5, "em": ["제동장치가 있는 것"] },
+    { "text": "그래서 브레이크를 뗀 자전거는 자전거로 안 쳐줌.", "img": 6, "sfx": "dudung" },
+    { "text": "자전거도로에서 타다 걸리면 과태료가 최대 50만 원임.", "img": 7, "em": ["50만 원"], "sfx": "cash" },
+    { "text": "안전요건에 안 맞게 개조한 경우는 더 셈.", "img": 8 },
+    { "text": "6개월 이하 징역이나 500만 원 이하 벌금까지 갈 수 있음.", "img": 9, "em": ["6개월 이하 징역"], "em_color": "yellow", "sfx": "thud" },
+    { "text": "그럼 조심해서 타면 되는 거 아님?!", "img": 10, "dialogue": true, "voice": "sub2", "emotion": "angry", "intensity": 2.0 },
+    { "text": "그게 안 됨. 실험에서 시속 10킬로만 돼도 서는 거리가 최소 5.5배로 늘었음.", "img": 11 },
+    { "text": "시속 20킬로에서는 최대 13.5배까지 벌어졌음.", "img": 12, "em": ["13.5배"], "sfx": "boing" },
+    { "text": "애가 아무리 조심해도 앞에서 사람이 튀어나오면 답이 없는 거임.", "img": 13 },
+    { "text": "애 자전거 사줄 친구 있으면 이거 꼭 보내주셈.", "img": 13 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}

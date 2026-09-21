@@ -1,0 +1,28 @@
+{
+  "slug": "salary",
+  "type": "D형 (반전) — 면접에서 희망연봉 먼저 안 부른 결과",
+  "source": "https://www.dogdrip.net/dogdrip/725792913 (원글 = 이직·커리어 익명글 캡처)",
+  "title_line1": "희망연봉 안 불렀더니",
+  "title_line2": "800만 원",
+  "hook": "면접에서 희망연봉 묻는데 숫자를 안 불렀더니",
+  "channel": "법푸는휴지",
+  "voice": "taesub",
+  "style": { "sub_box": true, "bar": "면접에서 희망연봉 묻는데 숫자를 안불렀더니.jpg", "bar_count": 142 },
+  "lines": [
+    { "text": "경력 5년차가 이직 면접 마지막 단계에서 이 질문을 받았음.", "img": 1 },
+    { "text": "희망 연봉이 어느 정도세요?", "img": 2, "dialogue": true, "voice": "sub2", "emotion": "toneup", "intensity": 2.0 },
+    { "text": "지금 받는 게 4,200이라 머릿속으로는 4,500을 부르려고 했음.", "img": 3, "em": ["4,500"] },
+    { "text": "근데 예전에 영업하던 사람한테 들은 말이 떠올랐음.", "img": 4, "sfx": "tick" },
+    { "text": "숫자를 먼저 부르는 쪽이 진다.", "img": 5, "dialogue": true, "emotion": "toneup", "intensity": 2.0, "sfx": "ding" },
+    { "text": "그래서 이렇게 되물었음.", "img": 6 },
+    { "text": "제가 먼저 말씀드리기보다, 이 포지션에 책정된 범위를 먼저 알 수 있을까요?", "img": 7, "dialogue": true, "emotion": "toneup", "intensity": 2.0 },
+    { "text": "잠깐 정적이 흘렀고 면접관이 답을 했음.", "img": 8, "sfx": "dudung" },
+    { "text": "이 자리는 5,000에서 5,500 정도 생각하고 있습니다.", "img": 9, "dialogue": true, "voice": "sub2", "emotion": "toneup", "intensity": 2.0 },
+    { "text": "4,500을 부르려던 사람 앞에 5,000이 먼저 나온 거임.", "img": 10, "em": ["5,000이 먼저"], "em_color": "yellow", "sfx": "thud" },
+    { "text": "최종 사인은 5,300에 했음.", "img": 11, "sfx": "cash" },
+    { "text": "먼저 말 안 한 게 800만 원이 됐음.", "img": 12, "em": ["800만 원"], "sfx": "boing" },
+    { "text": "먼저 부르면 그게 천장이 되는 거였음.", "img": 13 },
+    { "text": "이직 준비하는 친구 있으면 이거 꼭 보내주셈.", "img": 13 },
+    { "text": "구독!", "emotion": "toneup", "intensity": 2.0, "outro": true }
+  ]
+}
