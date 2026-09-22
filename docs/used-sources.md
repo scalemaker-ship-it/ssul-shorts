@@ -249,3 +249,16 @@ grep -c "<게시글ID>" docs/used-sources.md
 - gunbok | https://www.dogdrip.net/dogdrip/725753225 (댓글 203) | F형: 군복단속법 9조·13조, 전역자 예외는 예복·정복까지(전투복 제외). 5·18 평가는 다루지 않음 | 2026-09-23 21:00 예약 https://youtube.com/shorts/Iwh73yAsLpM
 ※ 제외: 박위 편(방송 캡처 + 장애인 조롱 여론이라 채널 리스크), 배그 사태 전편, 무슬림·젠더 소재
 ※ 고정 댓글 10건은 공개 후 별도로 달아야 함
+
+# 2026-09-23 추석 연휴 F형 10편 (연휴 9/24~9/27, 추석 9/25) — 이미지 전량 로컬 SDXL --fast 768x480, 힉스필드 금지 준수
+- sukchwi | 도로교통법 음주운전(0.03%) | F형: 숙취운전도 동일 처벌, 1년 이하 징역/500만 벌금·벌점 100 | 2026-09-24 12:00 예약 https://youtube.com/shorts/mqZICrmw-gk
+- taekbae | 공정위 택배 표준약관 | F형: 수령 14일 내 미통지 시 배상책임 소멸, 가액 미기재 한도 50만 | 2026-09-24 12:30 예약 https://youtube.com/shorts/ZoNoG2P9vQo
+- gatgil | 도로교통법 60조 | F형: 갓길 통행 범칙금 6만·벌점 30, 명절 임시 갓길차로제는 개방 구간만 | 2026-09-24 13:00 예약 https://youtube.com/shorts/Ww3EJxNs7Is
+- holidaywage | 근로기준법 56조 | F형: 휴일근로 8시간 1.5배·초과 2배, 5인 미만은 가산 제외·주휴수당(82,560원)은 지급 | 2026-09-24 20:00 예약 https://youtube.com/shorts/C2mAGJb8Mpc
+- bunmyo | 형법 160조 분묘발굴죄 | F형: 5년 이하 징역(벌금형 없음), 유골 유기 10년 이하, 분묘기지권 | 2026-09-24 20:30 예약 https://youtube.com/shorts/078G87nlKGI
+- travelcancel | 소비자분쟁해결기준(국외여행) | F형: 30일 전 계약금 환급~당일 50%, 약관규제법 6조로 불리한 조항 무효 | 2026-09-24 21:00 예약 https://youtube.com/shorts/tY0mx77LljM
+- sanbul | 산림보호법 53조 | F형: 실화 3년 이하 징역/3천만 벌금, 인접지 무허가 소각만으로 과태료 200만, 진화비 구상 | 2026-09-25 12:00 예약 https://youtube.com/shorts/om4eanai5mM
+- gongyuil | 공휴일·야간 진료비 가산 | D형: 진찰료 30~50%·조제료 30% 가산, 추석 한시 인상분(3천/1천)은 정부 지원 | 2026-09-25 12:30 예약 https://youtube.com/shorts/Nbv0OsZFX_c
+- giftset | 전자상거래법 17조 | F형: 7일 청약철회, 신선식품·제철상품은 예외 가능·하자는 예외 아님 | 2026-09-25 13:00 예약 https://youtube.com/shorts/HIQQZJFfzg8
+- pethotel | 동물보호법 동물위탁관리업 | F형: 이상 시 즉시 통보·진료 의무, 입증책임은 보호자 | 2026-09-25 20:00 예약 https://youtube.com/shorts/OiuR06C5hhM
+※ 고정 댓글 10건은 공개 후 별도로 달아야 함
