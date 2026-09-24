@@ -149,8 +149,6 @@ def main():
     # voice_id 형식(tc_...)일 때만 사용한다
     voice = env("TYPECAST_VOICE", "") or ""
     voice = voice if voice.startswith("tc_") else DEFAULT_VOICE
-    if not key:
-        sys.exit("TYPECAST_API_KEY 없음 — .env 를 확인하세요")
 
     wd = os.path.join(ROOT, "work", slug)
     sc = json.load(open(os.path.join(wd, "script.json"), encoding="utf-8"))
@@ -188,6 +186,9 @@ def main():
 
         wav = os.path.join(td, f"line_{i:03d}.wav")
         if not os.path.exists(wav):
+            # 키는 새로 합성할 때만 필요 — tts_edge.py 로 미리 만든 wav 는 그대로 쓴다
+            if not key:
+                sys.exit("TYPECAST_API_KEY 없음 — .env 를 확인하거나 tts_edge.py 를 먼저 돌리세요")
             tag = f" [{vname}]" if vname else ""
             print(f"[{i+1}/{len(sc['lines'])}]{tag} {emo}·{inten} · {text[:24]}...")
             if not tts(text, wav, key, v, emo, inten):
