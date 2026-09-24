@@ -1,0 +1,6 @@
+# 로컬 이미지 생성(pipeline/gen_local.py) 전용 — 선택. Apple Silicon(MPS) 또는 CUDA GPU 권장
+torch>=2.3
+diffusers>=0.30
+transformers
+accelerate
+safetensors

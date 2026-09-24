@@ -1,0 +1,5 @@
+# 기본 파이프라인 (tts → render → build) — ffmpeg 는 별도 설치
+pillow>=10
+numpy>=1.24
+# 타입캐스트가 막혔을 때 무료 대체 TTS (선택)
+edge-tts

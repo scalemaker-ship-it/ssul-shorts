@@ -77,4 +77,5 @@ F형(법조항 사이다)·E형(찬반 저울)·D형(뉴스 반전)을 그대로
 
 - 2026-09-15: 프로젝트 신설. 란빵 계정 = 자동차 썰 전용으로 확정.
 - 2026-09-16: 1편 revengedrive 20:00 (pkxtG-uHHFU), 2편 whiplash4w 21:00 (_BTGeXgSyi4) 예약, 3편 doording 9/17 12:00 예정. codex 한도 소진(9/19 17시 리셋)이라 3편 이미지는 로컬 SDXL.
+- 2026-09-17: 자동차 썰 9편(tailgate·jagibudam·school20·avante336·crosswalk·lawsuit4x·gv90·kickboard·evwait) 제작 완료, 완성본은 `ranbbang/완성/` 에 모아둠. tailgate·jagibudam 2편은 예약했다가 **사용자 지시로 비공개 전환**(공개된 적 없음), 나머지 7편은 미업로드. 이미지는 codex 한도+로컬 SDXL 모델 분실로 **힉스필드 z_image**(장당 0.15크레딧, 114장) 사용.
 - 2026-09-16: 발행 12/20/21시 3편·쇼핑태그 규칙 확정. 1편 `revengedrive`(보복운전 급정거 3번 → 특수협박·벌점 100점) 제작. 작업 폴더는 `ssul/work/<slug>` 에 두고 `ranbbang/work/<slug>` 심볼릭 링크(파이프라인 경로가 `ssul/work` 고정).

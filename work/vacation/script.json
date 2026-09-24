@@ -5,7 +5,7 @@
   "title_line1": "매년 두 달 휴가",
   "title_line2": "vs 연봉 2천 더",
   "hook": "매년 두 달 휴가 vs 연봉 2천 더, 뭐 고름?",
-  "channel": "썰푸는휴지",
+  "channel": "법푸는휴지",
   "voice": "main",
   "style": {
     "sub_box": true,
@@ -51,7 +51,9 @@
     },
     {
       "text": "여기서 갈리는 게, 그 2천을 10년 모으면 2억인데",
-      "em": ["2억"],
+      "em": [
+        "2억"
+      ],
       "em_color": "yellow",
       "img": 12
     },

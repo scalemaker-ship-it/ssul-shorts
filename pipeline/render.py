@@ -21,7 +21,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def font(path, size):
-    return ImageFont.truetype(path, size)
+    # 폰트 경로는 layout.py 에서 저장소 루트 기준 상대경로(fonts/...)
+    return ImageFont.truetype(os.path.join(ROOT, path), size)
 
 
 def fit_font(path, text, max_w, cap):

@@ -47,7 +47,7 @@ DLG_C     = (126, 200, 255)             # #7EC8FF  대사 자막 하늘색 (2026
 CHANNEL_C = (200, 200, 200)
 
 # ── 타이포 ────────────────────────────────────────────────────
-FONT_DIR   = "/Users/kimyiseul/Library/Fonts"
+FONT_DIR   = "fonts"                                # 레포 fonts/ (저장소 루트 기준 상대경로)
 F_TITLE    = f"{FONT_DIR}/JalnanGothic.otf"           # 상단 타이틀 — 잘난체 고딕 (2026-08-31)
 F_BAR      = f"{FONT_DIR}/Pretendard-SemiBold.ttf"    # 흰 바 제목
 F_SUB      = f"{FONT_DIR}/JalnanGothic.otf"           # 나레이션 자막 — 잘난체
@@ -73,7 +73,7 @@ CHAR_SEC     = 0.0                      # 캐릭터 끔 (2026-08-30 사용자 �
 # ── 워터마크 (자나스처럼 이미지 하단에 작게 반투명 채널명) ──────
 # 항상 켜둔다. 캡처가 퍼질 때 채널명이 같이 나가는 역할.
 # 이미지 안쪽(CONTENT_BOT 0.710 위)에 두어 자막(0.745)과 겹치지 않게 한다.
-WATERMARK    = "@썰푸는휴지"
+WATERMARK    = "법푸는휴지"
 WM_Y         = 0.686
 WM_SIZE      = 26
 WM_ALPHA     = 145

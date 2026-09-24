@@ -14,9 +14,10 @@ MPS(Apple Silicon) 자동 사용. 실패 이미지는 건너뛰고 마지막에 
 import argparse, os, sys, time
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent
 MODEL = os.environ.get(
     "SDXL_MODEL",
-    "/Users/kimyiseul/Desktop/kim/ssul/models/RealVisXL_V5.0_fp16.safetensors",
+    str(ROOT / "models" / "RealVisXL_V5.0_fp16.safetensors"),
 )
 # SDXL 친화 landscape 해상도(생성) → 최종 크롭 목표
 # 16GB MPS 메모리 압박 완화 위해 축소(1024x640, 1.6:1)
@@ -73,7 +74,7 @@ def main():
     ap.add_argument("--fast", action="store_true",
                     help="SDXL-Lightning 8스텝(장당 ~30초). 품질 약간↓, 속도 6배↑")
     args = ap.parse_args()
-    LORA = "/Users/kimyiseul/Desktop/kim/ssul/models/lora/sdxl_lightning_8step_lora.safetensors"
+    LORA = str(ROOT / "models" / "lora" / "sdxl_lightning_8step_lora.safetensors")
     if args.fast:
         args.steps, args.cfg = 8, 1.0
 

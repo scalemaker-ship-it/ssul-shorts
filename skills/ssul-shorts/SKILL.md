@@ -11,7 +11,7 @@ description: >-
 
 # ssul-shorts — 썰푸는휴지 쇼츠 제작
 
-프로젝트 루트 `/Users/kimyiseul/Desktop/kim/ssul`.
+프로젝트 루트 = 이 저장소를 클론한 폴더(이하 모든 경로는 루트 기준).
 
 **단일 출처 = `ssul/prd.md`.** 작업 전에 이것부터 읽는다. 대본 세부는
 `docs/script-guide.md`, 업로드 절차는 `docs/upload-workflow.md`.

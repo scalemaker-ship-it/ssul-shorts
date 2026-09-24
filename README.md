@@ -1,7 +1,50 @@
-# 썰푸는휴지 — 썰 쇼츠 자동화
+# 법푸는휴지 — 썰 쇼츠 자동화
 
 `@ssulltissue` 채널용 쇼츠 반자동 제작 파이프라인.
 레퍼런스: N잡연구소 B채널(2030 타겟 심리·사회 관찰형) 구조를 그대로 이식.
+
+---
+
+## 빠르게 시작하기 (처음 받은 사람용)
+
+필요한 것: **Python 3.9+**, **ffmpeg**, [타입캐스트](https://typecast.ai) API 키(없으면 무료 Edge TTS 로 대체 가능).
+
+```bash
+git clone https://github.com/scalemaker-ship-it/ssul-shorts.git
+cd ssul-shorts
+./setup.sh              # 패키지 설치 · .env 생성 · 효과음 생성 · 규격 점검
+                        # 로컬 이미지 생성까지 쓰려면 ./setup.sh --sdxl (모델 약 7GB)
+```
+
+`.env` 에 `TYPECAST_API_KEY` 를 넣은 뒤, 들어 있는 예제 편(`work/ramencafe`)으로 한 편 만들어 본다:
+
+```bash
+# 1) 이미지: work/ramencafe/img/1.png, 2.png ... (script.json 의 img 번호와 맞춤, 1280x800 권장)
+#    직접 넣거나 로컬 생성:  sdvenv/bin/python pipeline/gen_local.py --fast --prompt "..." --out "$PWD/work/ramencafe/img/1.png"
+#    (이미지가 없으면 회색으로 렌더된다 — 흐름 확인용으로는 충분)
+python3 pipeline/tts.py ramencafe        # 나레이션 (타입캐스트)
+#   └ 키가 없으면: python3 pipeline/tts_edge.py ramencafe && python3 pipeline/tts.py ramencafe
+python3 pipeline/render.py ramencafe     # 자막·타이틀 오버레이
+python3 pipeline/build.py ramencafe      # 조립 → work/ramencafe/ramencafe.mp4
+```
+
+새 편은 `work/<새이름>/script.json` 을 만들면 된다. 대본은 `docs/script-guide.md` 를
+ChatGPT/Claude 프로젝트 지침으로 붙여 넣고 주제를 주면 `script.json` 형식으로 나온다.
+`work/` 아래 180여 편의 실제 `script.json`·`upload.md` 가 예시다.
+
+### 포함된 것 / 직접 준비할 것
+
+| 항목 | 상태 |
+|---|---|
+| 폰트 (잘난체 고딕·을지로체·Pretendard) | ✅ `fonts/` 에 포함 — OFL 1.1, `fonts/LICENSE.md` |
+| 효과음·시작 "띵~" | ✅ `assets/sfx/`·`assets/chime.wav` — 코드로 합성(`pipeline/sfx.py`), 라이선스 문제 없음 |
+| 화면 규격 | ✅ `pipeline/layout.py` + 잠금 `layout.lock.json` |
+| Claude Code 스킬 | ✅ `skills/` → `~/.claude/skills/` 에 복사하면 "썰 쇼츠 만들자" 로 전 과정 진행 |
+| **BGM** | ❌ 미포함(원곡 라이선스 미확인). 저작권 무료 곡을 `assets/bgm.mp3` 로 넣으면 자동으로 깔린다. 없으면 BGM 없이 렌더 |
+| 로컬 이미지 모델 | ❌ 용량 문제로 미포함. `./setup.sh --sdxl` 이 Hugging Face 에서 받는다 (RealVisXL V5 + SDXL-Lightning) |
+| API 키 | ❌ `.env.example` 참고 — 타입캐스트(필수, 또는 Edge TTS), Zernio(업로드 API, 선택) |
+
+> 채널명·워터마크(`@법푸는휴지`)는 `pipeline/layout.py` 의 `WATERMARK`, `script.json` 의 `channel` 에서 바꾼다.
 
 ---
 
@@ -74,12 +117,12 @@
 | 검정 간격 | 26.9 ~ 27.5% | 11px — 타이틀을 이미지에 붙였다 |
 | 콘텐츠 | **27.5 ~ 71.0%** | 이미지, 좌우 꽉 참 |
 | **캐릭터** | 이미지 상단에 걸침 | **초반 2초만** 노출. 폭 12.7%, 정중앙 |
-| 워터마크 | **68.6%** (이미지 안쪽 하단) | `@썰푸는휴지` 반투명 · **항상 고정** |
+| 워터마크 | **68.6%** (이미지 안쪽 하단) | `@법푸는휴지` 반투명 · **항상 고정** |
 | 자막 | **74.5%** (이미지 바로 밑) | 잘난체, 자간 -2, 10자 내외 1줄 |
 | ~~프로필·채널명~~ | — | **제거됨** (`SHOW_EMBLEM = False`). 유튜브가 바로 아래 같은 정보를 띄워 중복 |
 | ⛔ 데드존 | **85.5% 이하** | 쇼츠 UI(채널명·설명·진행바)가 덮는다 |
 
-> **워터마크** — 이미지 하단 안쪽에 `@썰푸는휴지` 를 항상 넣는다. 캡처가 퍼질 때
+> **워터마크** — 이미지 하단 안쪽에 `@법푸는휴지` 를 항상 넣는다. 캡처가 퍼질 때
 > 채널명이 같이 나가는 역할이라 끄지 않는다. 하단 프로필+채널명과 역할이 겹쳐 보여도
 > 둘 다 유지한다 — 워터마크는 **이미지에 박히는 것**이고, 하단 프로필은 화면 밖 여백에
 > 있어 캡처·재업로드 시 잘려 나간다. `layout.py` 의 `WATERMARK` 를 빈 문자열로 두면 꺼진다.
@@ -171,7 +214,7 @@
 `assets/profile.png` — 하단 채널 프로필 이미지(정사각). 없으면 빈 원으로 렌더.
 `assets/tissue.png` — 두루마리 휴지 마스코트(배경 투명). 배너·워터마크용.
 `assets/banner.png` — 채널 배너. `python3 pipeline/banner.py` 로 다시 만든다.
-BGM 은 쓰지 않는다 — 나레이션만으로 제작한다.
+`assets/bgm.mp3` — 있으면 `build.py` 가 볼륨 0.30 으로 깐다(`--no-bgm` 으로 끔). 저장소에는 포함하지 않는다.
 
 ### 화자 고르기
 
@@ -210,6 +253,8 @@ python3 pipeline/voices.py --list     # 전체 1,125개 목록
 | `skills/ssul-shorts/` | Claude Code 스킬 — 소재 추천부터 업로드까지의 운영 절차 |
 | `skills/codex-image/` | 이미지 생성 스킬 (`codex exec` 래퍼 `scripts/gen.sh`) |
 | `work/<slug>/` | 편별 `script.json`(대본·소스 URL) + `upload.md`(제목·설명·근거표). 미디어는 커밋하지 않음 |
-| `assets/` | BGM·차임·폰트·프로필 |
+| `assets/` | 효과음·차임·캐릭터·프로필 (BGM 은 각자 넣음) |
+| `fonts/` | 자막·타이틀 폰트 4종 + 라이선스 |
+| `setup.sh` | 처음 설치 스크립트 |
 
 스킬은 `~/.claude/skills/` 에 복사해 쓴다. 비밀키는 `.env.example` 참고.

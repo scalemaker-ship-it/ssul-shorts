@@ -262,3 +262,9 @@ grep -c "<게시글ID>" docs/used-sources.md
 - giftset | 전자상거래법 17조 | F형: 7일 청약철회, 신선식품·제철상품은 예외 가능·하자는 예외 아님 | 2026-09-25 13:00 예약 https://youtube.com/shorts/HIQQZJFfzg8
 - pethotel | 동물보호법 동물위탁관리업 | F형: 이상 시 즉시 통보·진료 의무, 입증책임은 보호자 | 2026-09-25 20:00 예약 https://youtube.com/shorts/OiuR06C5hhM
 ※ 고정 댓글 10건은 공개 후 별도로 달아야 함
+
+# 2026-09-23 힉스필드 이미지 전량 교체 (사용자 지시: 이미지 생성에 힉스필드 금지)
+- z_image 로 만들었던 64장을 **로컬 SDXL(RealVisXL)로 전량 재생성**하고 5편 재조립.
+  insurance0(07~13) · cargodrop(전체) · breathrefuse(전체) · firelane(전체) · platetransfer(전체)
+- 5편 모두 2026-09-22 에 이미 공개된 상태 → **교체 업로드 여부는 사용자 확인 대기**.
+  유튜브는 영상 파일 교체 불가라 새로 올리고 기존 건 내려야 함(조회수·댓글 소멸).

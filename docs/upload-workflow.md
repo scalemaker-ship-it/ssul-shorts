@@ -17,7 +17,7 @@ bystander 편(2026-08-17)을 올릴 때 실제로 통한 순서를 그대로 적
 
 | 항목 | 값 |
 |---|---|
-| 채널 | 썰푸는휴지 `@ssulltissue` |
+| 채널 | 법푸는휴지 `@beopdaerohaedeurim` (구 법푸는휴지) |
 | 채널 ID | `UCAZ1Hlnb5SvubqROkMDFFlw` |
 | 구글 계정 | `.env`의 `YT_ACCOUNT` |
 
@@ -47,7 +47,7 @@ https://studio.youtube.com/channel/UCAZ1Hlnb5SvubqROkMDFFlw/videos/upload?d=ud
 ```
 chrome_upload_file
   selector: input[type="file"]
-  filePath: /Users/kimyiseul/Desktop/kim/ssul/work/<slug>/<slug>.mp4
+  filePath: <저장소 경로>/work/<slug>/<slug>.mp4
 ```
 
 업로드가 끝나면 세부정보 화면이 뜨고, 세로 영상이면 자동으로
@@ -229,7 +229,7 @@ function pick(month, day){            // pick('2026년 9월', 1)
 
 ## 3-3. Zernio API 경로 — 브라우저 없이 (2026-08-28 확인)
 
-썰푸는휴지 유튜브가 **Zernio 에 연결됐다.** Chrome MCP 가 죽어도 이 경로로 올라간다.
+법푸는휴지 유튜브가 **Zernio 에 연결됐다.** Chrome MCP 가 죽어도 이 경로로 올라간다.
 제목·설명·첫 댓글·공개범위·예약을 한 번에 넘기므로 §3-2 의 달력·드롭다운 함정이 없다.
 
 ```bash
@@ -278,7 +278,7 @@ https://www.youtube.com/watch?v=<영상ID>
 
 ## 5. 체크리스트
 
-- [ ] `https://www.youtube.com/account` 에서 **`.env`의 `YT_ACCOUNT` 계정 / 썰푸는휴지** 확인
+- [ ] `https://www.youtube.com/account` 에서 **`.env`의 `YT_ACCOUNT` 계정 / 법푸는휴지** 확인
 - [ ] `work/<slug>/upload.md` 작성돼 있음
 - [ ] 제목이 **100자 이내** (입력 후 카운터 확인 — 사고가 여기서 났다)
 - [ ] 설명에 해시태그 포함
@@ -417,3 +417,8 @@ https://www.youtube.com/watch?v=<영상ID>
 > **2026-09-15 슬롯 변경** — 매일 12:00·12:30·13:00·13:30·14:00 + 20:00·20:30·21:00·21:30·22:00 (하루 10편). 내일 날짜 예약은 달력 기본값이라 시간만 고르면 되고, 오늘 날짜는 달력에서 골라야 하며 **달력은 Escape 를 두 번(각각 따로) 눌러야 닫힌다.**
 
 > **2026-09-15 함정 추가** — 업로드 다이얼로그에서 달력이 이미 닫힌 상태로 Escape 를 한 번 더 누르면 **다이얼로그 자체가 닫혀 초안으로 빠진다.** Escape 는 `ytcp-date-picker` 가 보일 때 한 번만, 닫혔는지 스크린샷으로 확인 후 시간 선택. 초안으로 빠지면 Shorts 목록 행의 "초안 수정"으로 이어서 예약 가능.
+| 2026-09-19 12:00 | `sangjo` | https://youtube.com/shorts/oSHfs8aemYc | 예약(Studio). F형 각색. 할부거래법 25조 상조 해약환급금. 이미지 gpt 14장 |
+| 2026-09-19 12:30 | `doorsale` | https://youtube.com/shorts/H4zeniN-518 | 예약(Studio). F형 각색. 방문판매법 8조 14일 청약철회. 로컬 SDXL 14장 |
+| 2026-09-19 13:00 | `rental` | https://youtube.com/shorts/kOh6EJi6af4 | 예약(Studio). F형 각색. 소비자분쟁해결기준 대여업 위약금 10%. gpt 6장 + 로컬 8장 |
+| 2026-09-19 13:30 | `guard` | https://youtube.com/shorts/5wVwujVOrFI | 예약(Studio). F형 각색. 공동주택관리법 65조 경비원 갑질. 로컬 SDXL 14장 |
+| 2026-09-19 14:00 | `interior` | https://youtube.com/shorts/x3AT9Hkdl2g | 예약(Studio). F형 각색. 민법 667조 + 지급명령. 로컬 SDXL 14장 |
