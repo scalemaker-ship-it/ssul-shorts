@@ -27,7 +27,9 @@ OUT_W, OUT_H = 1280, 800
 
 NEG = ("text, letters, words, watermark, logo, signature, caption, subtitle, "
        "lowres, blurry, deformed, bad anatomy, extra fingers, mutated hands, "
-       "disfigured, ugly, cartoon, anime, illustration, 3d render, cgi, painting")
+       "disfigured, ugly, cartoon, anime, illustration, 3d render, cgi, painting, "
+       # 2026-09-26 사용자 지시: 얼굴 정면 금지(표정이 자주 무너짐) — 옆모습·뒷모습만
+       "frontal face, face looking at camera, facial close-up, portrait")
 
 # 채널 공통 꼬리(실사)
 STYLE_TAIL = ("photorealistic, DSLR photo, 35mm, natural light, "

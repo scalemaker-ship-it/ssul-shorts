@@ -28,6 +28,7 @@ VOICES = {
     "yongsik": "tc_5feb2085cca1a479e73bac37",  # 용식 — 남성 나레이션 (현재 main)
     "sehee":   "tc_611c3f692fac944dff493a04",  # 세희 — 여성 대사 (이전 sub1)
     "soye":    "tc_6837dec48fc46637a9272b88",  # 소예 — 여성 대사·구독 (현재 sub1, 2026-09-14)
+    "mija":    "tc_6059db64e2d12a32cce1b0c7",  # 미자 — 중년 여성 대화체 대사 (2026-10-17 leaseword)
 }
 
 # ── 3화자 구성 (2026-08-28 확정 / main 은 2026-08-30 용식으로 교체) ──
@@ -134,6 +135,18 @@ def dur(path):
     return float(out) if out else 0.0
 
 
+def issuecookie_first(slug, sc, td):
+    """2026-10-09 사용자 지시: 휴지·란빵 **쇼츠** 기본 목소리 = 이슈쿠키(GPT-SoVITS). 롱폼은 이슬(tts_myvoice) 유지. 없는 문장 wav 를 먼저 채운다.
+    되돌리기: TTS_ENGINE=typecast 또는 script.json "tts_engine": "typecast"."""
+    eng = os.environ.get("TTS_ENGINE") or sc.get("tts_engine", "issuecookie")
+    if eng != "issuecookie":
+        return
+    if all(os.path.exists(os.path.join(td, f"line_{i:03d}.wav")) for i in range(len(sc["lines"]))):
+        return
+    here = os.path.dirname(os.path.abspath(__file__))
+    subprocess.run([sys.executable, os.path.join(here, "tts_issuecookie.py"), slug], check=True)
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("사용: python3 pipeline/tts.py <slug> [--gap 0.22]")
@@ -158,6 +171,7 @@ def main():
         print(f"화자: {sc['voice']}")
     td = os.path.join(wd, "tts")
     os.makedirs(td, exist_ok=True)
+    issuecookie_first(slug, sc, td)
 
     lines_text = [(l["text"] if isinstance(l, dict) else l) for l in sc["lines"]]
     plan = audio.pace(lines_text)

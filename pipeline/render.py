@@ -177,8 +177,65 @@ def paste_character(im, top=None):
         im.alpha_composite(ch, (L.W // 2 - w // 2, bottom - h))
 
 
+# ── 하단 댓글 카드 (2026-10-10 사용자 지시 "템플릿 2처럼 하단에 댓글") ──
+# 문장에 "comment": {"nick": "ㅇㅇ", "text": "...", "likes": 14} 를 달면 그 문장부터
+# 다음 댓글이 나올 때까지 이미지 아래 검은 영역에 유튜브 댓글 모양 카드가 뜬다.
+CARD_X, CARD_Y, CARD_W = 60, 1400, 960
+AVATAR_COL = [(255, 138, 101), (129, 199, 132), (100, 181, 246), (186, 104, 200), (255, 213, 79)]
+
+
+def draw_comment(im, cm, k=0):
+    d = ImageDraw.Draw(im)
+    fn = font(f"{L.FONT_DIR}/Pretendard-SemiBold.ttf", 34)
+    ft = font(f"{L.FONT_DIR}/Pretendard-SemiBold.ttf", 46)
+    fl = font(f"{L.FONT_DIR}/Pretendard-Medium.ttf", 32)
+    # 줄바꿈 — 카드 폭 안에서 어절 단위
+    words, lines, cur = cm["text"].split(" "), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if ft.getlength(t) > CARD_W - 190 and cur:
+            lines.append(cur); cur = w
+        else:
+            cur = t
+    lines.append(cur)
+    h = 150 + 60 * len(lines)
+    d.rounded_rectangle((CARD_X, CARD_Y, CARD_X + CARD_W, CARD_Y + h), 30, fill=(255, 255, 255, 255))
+    col = AVATAR_COL[k % len(AVATAR_COL)]
+    d.ellipse((CARD_X + 34, CARD_Y + 34, CARD_X + 118, CARD_Y + 118), fill=col + (255,))
+    d.text((CARD_X + 76, CARD_Y + 76), cm.get("nick", "ㅇㅇ")[:1], font=fn, fill=(255, 255, 255, 255), anchor="mm")
+    d.text((CARD_X + 146, CARD_Y + 40), "@" + cm.get("nick", "익명"), font=fn, fill=(110, 110, 118, 255))
+    for i, ln in enumerate(lines):
+        d.text((CARD_X + 146, CARD_Y + 88 + i * 60), ln, font=ft, fill=(15, 15, 18, 255))
+    if cm.get("likes"):
+        d.text((CARD_X + 146, CARD_Y + 100 + len(lines) * 60), f"♡ {cm['likes']}", font=fl, fill=(110, 110, 118, 255))
+
+
+# ── 하단 설명 라벨 (2026-10-18 사용자 지시 "하단에 설명 타이틀") ──
+# 문장에 "label": {"title": "1위 맥도날드 체코", "desc": "좋아요 34만 7천"} 을 달면 그 문장부터
+# 다음 label 이 나올 때까지 이미지 아래 검은 영역에 흰 제목 칩 + 설명 박스가 뜬다.
+# "label": null 을 주면 거기서 내린다. 카드뉴스(룩스) 하단 설명 형식.
+def draw_label(im, lb):
+    d = ImageDraw.Draw(im)
+    ft = font(L.F_TITLE, 56)
+    fd = font(f"{L.FONT_DIR}/Pretendard-SemiBold.ttf", 44)
+    cx, y = L.W // 2, 1420
+    t = lb.get("title", "")
+    if t:
+        b = ft.getbbox(t)
+        w, h = b[2] - b[0], b[3] - b[1]
+        d.rectangle((cx - w / 2 - 28, y, cx + w / 2 + 28, y + h + 36), fill=(255, 255, 255, 255))
+        d.text((cx - w / 2 - b[0], y + 18 - b[1]), t, font=ft, fill=(10, 10, 12, 255))
+        y += h + 36 + 22
+    desc = lb.get("desc", "")
+    if desc:
+        b = fd.getbbox(desc)
+        w, h = b[2] - b[0], b[3] - b[1]
+        d.rectangle((cx - w / 2 - 24, y, cx + w / 2 + 24, y + h + 30), fill=(255, 255, 255, 235))
+        d.text((cx - w / 2 - b[0], y + 15 - b[1]), desc, font=fd, fill=(30, 30, 34, 255))
+
+
 def build_overlay(sc, sub_text, character=False, spans=None, em_color=None,
-                  bar_text=None, dialogue=False):
+                  bar_text=None, dialogue=False, comment=None, label=None):
     """이미지 위에 얹을 층. 콘텐츠 영역은 투명하게 비워둔다."""
     im = Image.new("RGBA", (L.W, L.H), (0, 0, 0, 255))
     c_top, c_bot = L.px(L.CONTENT_TOP), L.px(L.CONTENT_BOT)
@@ -319,6 +376,10 @@ def build_overlay(sc, sub_text, character=False, spans=None, em_color=None,
 
     if character:
         paste_character(im, top=bar_bot if bar_text else None)
+    if comment:
+        draw_comment(im, comment[0], comment[1])
+    if label:
+        draw_label(im, label)
     return im
 
 
@@ -350,6 +411,11 @@ def main():
         bar_text = bar_conf if isinstance(bar_conf, str) else \
             sc.get("hook", "").replace("ㄷㄷ", "").replace("ㅎ", "").strip()
     manifest, n, t = [], 0, 0.0
+    cur_cm, cm_k = None, -1
+    cur_lb = None
+    # 문장마다 시작 효과음 — 2026-10-10 도입('휙'), 2026-10-16 사용자 지시로 기본 끔
+    # ("화면 지나갈 때 툭툭 치는 소리 다 제외"). 다시 켜려면 style.line_sfx: "whoosh"
+    line_sfx = (sc.get("style") or {}).get("line_sfx", "")
     for i, tl in enumerate(timing):
         # script.json 의 line["img"] (1-based) 를 우선, 없으면 순환 배정
         if imgs and tl.get("img"):
@@ -361,6 +427,11 @@ def main():
         ln = sc["lines"][li] if li < len(sc["lines"]) else {}
         ln = ln if isinstance(ln, dict) else {}
         emc = ln.get("em_color")
+        if ln.get("comment"):
+            cm_k += 1
+            cur_cm = (ln["comment"], cm_k)
+        if "label" in ln:
+            cur_lb = ln["label"]
         norm = " ".join(tl["text"].split())
         spans = em_spans(norm, ln.get("em"))
         chunks = subs.chunk(tl["text"], L.SUB_CHUNK)
@@ -377,15 +448,17 @@ def main():
             dlg = bool(ln.get("dialogue"))
             base = os.path.join(out, f"ov_{n:03d}.png")
             build_overlay(sc, c, spans=csp, em_color=emc,
-                          bar_text=bt, dialogue=dlg).save(base)
+                          bar_text=bt, dialogue=dlg, comment=cur_cm, label=cur_lb).save(base)
             char = None
             if has_char:
                 char = os.path.join(out, f"ov_{n:03d}_c.png")
                 build_overlay(sc, c, character=True, spans=csp,
-                              em_color=emc, bar_text=bt, dialogue=dlg).save(char)
+                              em_color=emc, bar_text=bt, dialogue=dlg, comment=cur_cm, label=cur_lb).save(char)
             # 효과음·흔들림은 문장 시작에만 — 첫 덩어리에만 실어 보낸다 (2026-09-14)
             first = (c == chunks[0])
             sfx = ln.get("sfx") if first else None
+            if first and not sfx and i > 0 and not ln.get("outro") and line_sfx:
+                sfx = line_sfx
             shake = ln.get("shake") if first else None
             manifest.append({"base": base, "char": char, "text": c,
                              "img": imgs[img_i] if img_i >= 0 else None,

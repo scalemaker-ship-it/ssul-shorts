@@ -163,6 +163,8 @@ def main():
             if not name:
                 continue
             p = os.path.join(sfx_dir, f"{name}.wav")
+            if not os.path.exists(p):  # 이슈쿠키 샘플러(assets/sfx/ic/) 이름도 받는다
+                p = os.path.join(sfx_dir, "ic", f"{name}.wav")
             if not os.path.exists(p):
                 print(f"! 효과음 없음: {name} (pipeline/sfx.py 로 생성)")
                 continue
